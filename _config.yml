@@ -22,3 +22,9 @@ collections:
   portfolio:
     output: true
     permalink: /project/:title/
+
+# Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jemoji
