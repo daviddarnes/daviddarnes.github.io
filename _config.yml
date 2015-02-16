@@ -12,10 +12,11 @@ exclude:
 networks:
   Twitter: http://twitter.com/daviddarnes
   GitHub: http://github.com/daviddarnes
-  Tumblr: http://daviddarnes.tumblr.com
-  YouTube: http://youtube.com/daviddarnes
+  CodePen: http://codepen.io/daviddarnes
   Website: http://david.darn.es
   Blog: http://david.darn.es/blog
+  Tumblr: http://daviddarnes.tumblr.com
+  YouTube: http://youtube.com/daviddarnes
 
 # Portfolio collection
 collections:
