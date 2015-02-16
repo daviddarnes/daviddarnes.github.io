@@ -1,27 +1,14 @@
 <h2>Projects</h2>
 {% if site.portfolio %}
-   <h3>Websites</h3>
-      {% for project in site.portfolio %}
-         {% if project.category = 'website' %}
-            <h3>Websites</h3>
-            <p>
-               <a href="{{ project.link }}">{{ project.title }}</a>
-            </p>
-         {% elsif project.category = 'tutorial' %}
-            <h3>Tutorials</h3>
-            <p>
-               <a href="{{ project.link }}">{{ project.title }}</a>
-            </p>
-         {% elsif project.category = 'article' %}
-            <h3>Articles</h3>
-            <p>
-               <a href="{{ project.link }}">{{ project.title }}</a>
-            </p>
-         {% else %}
-            <h3>Other projects</h3>
-            <p>
-               <a href="{{ project.link }}">{{ project.title }}</a>
-            </p>
-         {% endif %}
-     {% endfor %}
+   {% for category in site.portfolio %}
+      <h3>{{ category | first }}</h3>
+         <ul>
+            {% for projects in category %}
+               {% for project in projects %}
+                  <li><a href="{{ project.link }}">{{ project.title }}</a></li>
+               {% endfor %}
+            {% endfor %}
+         </ul>
+      </li>
+   {% endfor %}
 {% endif %}
