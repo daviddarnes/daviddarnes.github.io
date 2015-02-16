@@ -9,7 +9,7 @@ exclude:
 - README.md
 
 # Personal Networks and websites
-personal:
+networks:
   Twitter: http://twitter.com/daviddarnes
   GitHub: http://github.com/daviddarnes
   Tumblr: http://daviddarnes.tumblr.com
