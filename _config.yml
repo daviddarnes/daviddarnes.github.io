@@ -7,3 +7,9 @@ gems:
 # Excluded files
 exclude:
 - README.md
+
+# Portfolio collection
+collections:
+  portfolio:
+    output: true
+    permalink: /project/:title/
