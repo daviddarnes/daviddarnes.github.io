@@ -1,0 +1,8 @@
+{% if site.networks %}
+  <h3>Networks</h3>
+	<ul>
+		{% for network in site.networks %}
+			<li><a href="{{ network[1] }}">{{ network[0] }}</a></li>
+		{% endfor %}
+	</ul>
+{% endif %}
