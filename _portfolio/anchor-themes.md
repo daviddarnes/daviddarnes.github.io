@@ -1,6 +1,7 @@
 ---
 title: Anchor Themes
 layout: default
+category: website
 link: http://anchorthemes.com
 icon: anchorthemes
 ---
