@@ -1,10 +1,8 @@
 <h2>Projects</h2>
-{% for category in site.categories %}
-   <h3>{{ category }}</h3>
-      <ul>
-         {% for project in category %}
+{% if site.portfolio %}
+   <ul>
+      {% for project in site.portfolio %}
             <li><a href="{{ project.link }}">{{ project.title }}</a></li>
-         {% endfor %}
-      </ul>
-   </li>
-{% endfor %}
+      {% endfor %}
+   </ul>
+{% endif %}
