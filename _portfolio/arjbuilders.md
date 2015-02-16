@@ -1,6 +1,7 @@
 ---
 title: ARJ Builders Ltd
 layout: default
+category: website
 link: http://arjbuilders.com/
 icon: arjbuilders
 ---
