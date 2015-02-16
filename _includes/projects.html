@@ -1,14 +1,12 @@
 <h2>Projects</h2>
-{% if site.portfolio %}
-   {% for category in site.portfolio.categories %}
-      <h3>{{ category | first }}</h3>
-         <ul>
-            {% for projects in category %}
-               {% for project in projects %}
-                  <li><a href="{{ project.link }}">{{ project.title }}</a></li>
-               {% endfor %}
+{% for category in site.portfolio.categories %}
+   <h3>{{ category | first }}</h3>
+      <ul>
+         {% for projects in category %}
+            {% for project in projects %}
+               <li><a href="{{ project.link }}">{{ project.title }}</a></li>
             {% endfor %}
-         </ul>
-      </li>
-   {% endfor %}
-{% endif %}
+         {% endfor %}
+      </ul>
+   </li>
+{% endfor %}
