@@ -1,6 +1,7 @@
 ---
 title: Bread.li
 layout: default
+category: website
 link: http://bread.li
 icon: breadli
 ---
