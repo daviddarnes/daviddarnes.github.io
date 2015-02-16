@@ -1,0 +1,9 @@
+{% if site.porfolio %}
+  <ul>
+    {% for project in site.porfolio %}
+      <li>
+        <a href="{{ project.url }}">{{ project.url }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
