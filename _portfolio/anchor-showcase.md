@@ -1,6 +1,7 @@
 ---
 title: Anchor Showcase
 layout: default
+category: website
 link: http://anchorshowcase.com
 icon: anchorshowcase
 ---
