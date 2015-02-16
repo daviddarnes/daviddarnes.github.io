@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: frontpage
 ---
 
 # Hello world!
