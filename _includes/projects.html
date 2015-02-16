@@ -1,6 +1,6 @@
 <h2>Projects</h2>
 {% if site.portfolio %}
-   {% for category in site.portfolio %}
+   {% for category in site.portfolio.categories %}
       <h3>{{ category | first }}</h3>
          <ul>
             {% for projects in category %}
