@@ -8,6 +8,15 @@ gems:
 exclude:
 - README.md
 
+# Personal Networks and websites
+personal:
+  Twitter: http://twitter.com/daviddarnes
+  GitHub: http://github.com/daviddarnes
+  Tumblr: http://daviddarnes.tumblr.com
+  YouTube: http://youtube.com/daviddarnes
+  Website: http://david.darn.es
+  Blog: http://david.darn.es/blog
+
 # Portfolio collection
 collections:
   portfolio:
