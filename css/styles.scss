@@ -9,19 +9,20 @@ html, body {
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  line-height: 24px;
+  line-height: 12px;
   background: #FDFDFD;
   color: #555;
+  padding: 20px;
 }
 
 a {
   color: #cb4102;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
   border-bottom: 1px solid transparent;
   transition: .2s;
   text-decoration: none;
   &:hover {
     border-bottom-color: #cb4102;
-    margin-bottom: 2px;
+    padding-bottom: 2px;
   }
 }
