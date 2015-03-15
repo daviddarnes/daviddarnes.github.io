@@ -20,5 +20,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "html5shiv": "~3.7.2"
+  }
 }
