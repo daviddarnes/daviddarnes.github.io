@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/daviddarnes/daviddarnes.github.io/issues"
   },
-  "homepage": "https://github.com/daviddarnes/daviddarnes.github.io"
+  "homepage": "https://github.com/daviddarnes/daviddarnes.github.io",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "html5shiv": "^3.7.2",
+    "normalize.css": "^3.0.2"
+  }
 }
