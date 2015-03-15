@@ -22,7 +22,7 @@ $text-colour: #373737;
 // Globals
 body {
 	font-size: 14px;
-	line-height: 1.8;
+	line-height: 2;
 	color: $text-colour;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
@@ -34,8 +34,12 @@ body {
 	box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul, ol {
 	margin-top: 0;
+}
+
+h1, h2 {
+	line-height: 1.6;
 }
 
 a {
@@ -55,6 +59,22 @@ svg {
 }
 
 
+// Header
+.header__info {
+	color: lighten($text-colour, 30%);
+	transition: .2s;
+	margin-bottom: 10px;
+	&:hover {
+		color: $text-colour;
+	}
+}
+
+.nav--networks,
+.info-line {
+	display: inline;
+}
+
+
 // Sidebar
 .sidebar {
 	position: fixed;
@@ -65,14 +85,6 @@ svg {
 	background: darken($background-colour, 1%);
 	border-right: $borders;
 	box-shadow: inset -2px 0 4px -2px $shadow-colour;
-}
-
-.sidebar__aside {
-	color: lighten($text-colour, 30%);
-	transition: .2s;
-	&:hover {
-		color: $text-colour;
-	}
 }
 
 .nav__list {

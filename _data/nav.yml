@@ -1,0 +1,18 @@
+# Header navigation
+header:
+  Articles: /articles/
+  Projects: /projects/
+  Experiments: /experiments/
+  Contact: /contact/
+  About: /about/
+
+# Social networks
+networks:
+  Twitter: http://twitter.com/daviddarnes
+  GitHub: http://github.com/daviddarnes
+  CodePen: http://codepen.io/daviddarnes
+  Website: http://david.darn.es
+  Blog: http://david.darn.es/blog
+  Tumblr: http://daviddarnes.tumblr.com
+  Dribbble: https://dribbble.com/daviddarnes
+  YouTube: http://youtube.com/daviddarnes

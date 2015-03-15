@@ -1,8 +1,7 @@
-{% if site.networks %}
-  <h3>Networks</h3>
-	<ul>
-		{% for network in site.networks %}
-			<li><a href="{{ network[1] }}">{{ network[0] }}</a></li>
+{% if site.data.nav.networks %}
+	<nav class="nav  nav--networks">
+		{% for networks in site.data.nav.networks %}
+			<a href="{{ networks[1] }}">{{ networks[0] }}</a>
 		{% endfor %}
 	</ul>
 {% endif %}
