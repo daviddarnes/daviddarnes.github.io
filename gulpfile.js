@@ -1,7 +1,8 @@
 // Gulp dependencies
-var gulp		= require('gulp');
-var bower		= require('main-bower-files');
-var filter		= require('gulp-filter');
+var gulp	= require('gulp');
+var bower	= require('main-bower-files');
+var filter	= require('gulp-filter');
+var rename	= require('gulp-rename');
 
 // Return main web dependencies
 var mainfiles	= bower();
