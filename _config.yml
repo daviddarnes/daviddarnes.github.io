@@ -7,6 +7,13 @@ gems:
 # Excluded files
 exclude:
 - README.md
+- LICENSE
+- bower_components
+- bower.json
+- gulpfile.js
+- node_modules
+- package.json
+- CNAME
 
 # Personal Networks and websites
 networks:
