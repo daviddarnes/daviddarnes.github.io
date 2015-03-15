@@ -1,28 +1,115 @@
 ---
 title: stylesheet
 ---
-html, body {
-  padding: 0;
-  margin: 0;
-  min-height: 100%;
+
+// Widths
+$sidebar-width: 20%;
+
+// Backgrounds
+$background-colour: #fff;
+
+// Borders & shadows
+$border-colour: #cbcbcb;
+$shadow-colour: $border-colour;
+$borders: 1px solid $border-colour;
+
+// Type
+$text-colour: #373737;
+
+@import "normalize";
+
+// Globals
+body {
+	font-size: 14px;
+	line-height: 1.8;
+	color: $text-colour;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	background: $background-colour;
+	-webkit-font-smoothing: antialiased;
 }
 
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 24px;
-  background: #FDFDFD;
-  color: #555;
-  padding: 20px;
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
 }
 
 a {
-  color: #cb4102;
-  padding-bottom: 5px;
-  border-bottom: 1px solid transparent;
-  transition: .2s;
-  text-decoration: none;
-  &:hover {
-    border-bottom-color: #cb4102;
-    padding-bottom: 2px;
-  }
+	color: darken($text-colour, 10%);
+	text-decoration: none;
+	border-bottom: $borders;
+	transition: .2s;
+	font-weight: 500;
+	&:hover {
+		border-color: darken($border-colour, 40%);
+	}
 }
+
+svg {
+	fill: transparent;
+	stroke: $border-colour;
+}
+
+// Sidebar
+.sidebar {
+	position: fixed;
+	width: $sidebar-width;
+	height: 100%;
+	padding: 25px;
+	text-align: right;
+	background: darken($background-colour, 1%);
+	border-right: $borders;
+	box-shadow: inset -2px 0 4px -2px $shadow-colour;
+}
+
+.nav__list {
+	list-style: none;
+	line-height: 2em;
+}
+
+.nav__link {
+	position: relative;
+	border-bottom: none;
+	transition: .2s;
+	&:hover {
+		margin-right: -10px;
+	}
+}
+
+.link--current {
+	margin-right: -10px;
+	&:before,
+	&:after {
+		content: "";
+		position: absolute;
+		right: -16px;
+		top: 1px;
+		height: 0;
+		width: 0;
+		border: 8px solid transparent;
+	}
+	&:before {
+		border-right-color: $border-colour;
+		right: -15px;
+	}
+	&:after {
+		border-right-color: $background-colour;
+	}
+}
+
+// Main wrapper
+.main {
+	float: left;
+	width: $sidebar-width - 100%;
+	max-width: 1024px;
+	margin-left: $sidebar-width;
+	padding: 25px;
+}
+
+// Articles
+
+// Portfolio items
+

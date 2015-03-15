@@ -5,18 +5,21 @@
 <body>
 	<div class="sidebar">
 		<header class="header  sidebar__header">
-			<img src="images/logo.svg" />
+			{% include logo.svg %}
 		</header>
 		<nav class="nav  sidebar__nav">
-			<a class="link  nav__link">Articles</a>
-			<a class="link  nav__link">Projects</a>
-			<a class="link  nav__link">Experiments</a>
-			<a class="link  nav__link">Contact</a>
-			<a class="link  nav__link">About</a>
+			<ul class="list  nav__list">
+				<li class="item  nav__item"><a class="link  nav__link">Articles</a></li>
+				<li class="item  nav__item"><a class="link  nav__link  link--current">Projects</a></li>
+				<li class="item  nav__item"><a class="link  nav__link">Experiments</a></li>
+				<li class="item  nav__item"><a class="link  nav__link">Contact</a></li>
+				<li class="item  nav__item"><a class="link  nav__link">About</a></li>
+			</ul>
 		</nav>
 	</div>
 	<main class="main" role="main">
 		<article class="article  main__article">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie ante in euismod efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur sollicitudin efficitur arcu, vitae sodales magna consequat a. Nullam ornare lacus tortor, scelerisque egestas velit ultricies ut. Fusce pretium ultricies sodales. Donec facilisis nisl et nisi malesuada dapibus id eu turpis. Donec justo diam, lacinia quis nibh sit amet, blandit porta risus. Sed sed gravida leo. Sed semper convallis tortor at bibendum. Proin tincidunt viverra fermentum.</p>
 			{{ content }}
 		</article>
 	</main>
