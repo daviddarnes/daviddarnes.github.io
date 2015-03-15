@@ -63,14 +63,22 @@ svg {
 .header__info {
 	color: lighten($text-colour, 30%);
 	transition: .2s;
-	margin-bottom: 10px;
 	&:hover {
 		color: $text-colour;
+		.link {
+			opacity: 1;
+			margin-left: 5px;
+		}
+	}
+	.link {
+		opacity: 0;
+		transition: .2s;
 	}
 }
 
-.nav--networks,
-.info-line {
+
+.info-line,
+.header__nav {
 	display: inline;
 }
 
@@ -85,6 +93,14 @@ svg {
 	background: darken($background-colour, 1%);
 	border-right: $borders;
 	box-shadow: inset -2px 0 4px -2px $shadow-colour;
+	.nav__link:hover,
+	.link--current {
+		margin-right: -8px;
+	}
+}
+
+.logo {
+	margin-bottom: 10px;
 }
 
 .nav__list {
@@ -96,11 +112,6 @@ svg {
 	position: relative;
 	border-bottom: none;
 	transition: .2s;
-}
-
-.nav__link:hover,
-.link--current {
-	margin-right: -8px;
 }
 
 .link--current {

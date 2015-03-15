@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: projects
 permalink: /projects/
 ---
 
-{% include projects.html %}
+# Projects

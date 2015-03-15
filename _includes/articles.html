@@ -1,0 +1,24 @@
+<section class="articles  main__articles">
+
+	{% if site.posts %}
+		<ul class="list  articles__list">
+
+			{% for post in site.posts %}
+				<li class="item  articles__item">
+					<article class="article  articles__article">
+
+						<h2 class="title  article__title">
+							<a href="{{ post.url }}">{{ post.title }}</a>
+						</h2>
+
+						<p class="excerpt  article__excerpt">{{ post.excerpt }}</p>
+						<time class="time  article__time">{{ post.date | date_to_string }}</time>
+
+					</article>
+				</li>
+			{% endfor %}
+
+		</ul>
+	{% endif %}
+
+</section>
