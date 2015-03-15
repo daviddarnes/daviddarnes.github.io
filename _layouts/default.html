@@ -1,8 +1,24 @@
 <head>
-  <link href="/css/styles.css" media="all" rel="stylesheet">
-  <title>David Darnes</title>
+	<link href="/css/styles.css" media="all" rel="stylesheet">
+	<title>David Darnes</title>
 </head>
 <body>
-  {{ content }}
+	<div class="sidebar">
+		<header class="header  sidebar__header">
+			<img src="images/logo.svg" />
+		</header>
+		<nav class="nav  sidebar__nav">
+			<a class="link  nav__link">Articles</a>
+			<a class="link  nav__link">Projects</a>
+			<a class="link  nav__link">Experiments</a>
+			<a class="link  nav__link">Contact</a>
+			<a class="link  nav__link">About</a>
+		</nav>
+	</div>
+	<main class="main" role="main">
+		<article class="article  main__article">
+			{{ content }}
+		</article>
+	</main>
 </body>
 
