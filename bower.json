@@ -1,0 +1,24 @@
+{
+  "name": "daviddarnes.github.io",
+  "version": "1.0.0",
+  "homepage": "https://github.com/daviddarnes/daviddarnes.github.io",
+  "authors": [
+    "David Darnes <me@daviddarnes.com>"
+  ],
+  "description": "My personal github pages site",
+  "main": "_site/index.html",
+  "keywords": [
+    "jekyll",
+    "simple",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
