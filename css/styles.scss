@@ -54,9 +54,27 @@ a {
 	}
 }
 
-svg {
+// Icons
+.link__icon {
+	vertical-align: text-top;
+	max-width: 18px;
+	max-height: 18px;
+	fill: lighten($text-colour, 30%);
+	transition: .2s;
+	&:hover {
+		fill: $text-colour;
+	}
+}
+
+.logo__icon {
+	max-width: 42px;
+	max-height: 42px;
 	fill: transparent;
 	stroke: $border-colour;
+	transition: .2s;
+	&:hover {
+		stroke: $text-colour;
+	}
 }
 
 
@@ -141,7 +159,7 @@ svg {
 // Main wrapper
 .main {
 	float: left;
-	width: $sidebar-width - 100%;
+	width: (100% - $sidebar-width);
 	max-width: 1024px;
 	margin-left: $sidebar-width;
 	padding: 25px;
@@ -154,6 +172,6 @@ svg {
 // Footer
 .footer__copyright {
 	padding: 1em 0;
-	border-top: $borders;
+	border-top: 1px solid lighten($border-colour, 10%);
 	color: lighten($text-colour, 30%);
 }

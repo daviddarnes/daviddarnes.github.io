@@ -1,7 +1,9 @@
 <div class="sidebar">
 
 	<a href="/" class="logo  sidebar__logo">
-		{% include logo.svg %}
+		<svg class="icon  logo__icon">
+			<use xlink:href="#logo"></use>
+		</svg>
 	</a>
 
 	{% include nav.html %}

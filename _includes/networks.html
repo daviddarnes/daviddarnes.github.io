@@ -1,7 +1,11 @@
 {% if site.data.nav.networks %}
 	<nav class="nav  header__nav">
 		{% for networks in site.data.nav.networks %}
-			<a class="link  nav__link" href="{{ networks[1] }}">{{ networks[0] }}</a>
+			<a class="link  nav__link" href="{{ networks[1] }}">
+				<svg class="icon  link__icon">
+					<use xlink:href="#{{ networks[0] }}"></use>
+				</svg>
+			</a>
 		{% endfor %}
 	</ul>
 {% endif %}

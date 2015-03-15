@@ -1,8 +1,0 @@
-<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs></defs>
-    <g id="logo">
-        <path d="M19.243,0 L26.875,20.969 L21.633,22.879 L14,1.907 L19.243,0 L19.243,0 Z" id="right-eye"></path>
-        <path d="M8.241,4 L15.875,24.972 L10.632,26.879 L3,5.91 L8.241,4 L8.241,4 Z" id="left-eye"></path>
-        <path d="M31.545,18.91 L33.455,24.152 L7.152,33.723 L5.243,28.482 L0,30.389 L3.817,40.875 L40.606,27.486 L36.787,17 L31.545,18.91 L31.545,18.91 Z" id="mouth"></path>
-    </g>
-</svg>
