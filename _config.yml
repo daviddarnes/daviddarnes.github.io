@@ -25,13 +25,16 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: /article/:title/
+      permalink: /articles/:title/
 
-# Portfolio collection
+# Portfolio and experiments collections
 collections:
   projects:
     output: true
-    permalink: /project/:title/
+    permalink: /projects/:title/
+  experiments:
+    output: true
+    permalink: /experiments/:title/
 
 # Gems
 gems:

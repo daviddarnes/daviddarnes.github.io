@@ -5,7 +5,7 @@
 
 			{% for item in site.data.nav.header %}
 				<li class="item  nav__item">
-					<a class="link  nav__link{% if page.url == item[1] %}  link--current{% endif %}" href="{{ item[1] }}">{{ item[0] }}</a>
+					<a class="link  nav__link{% if page.url contains item[1] %}  link--current{% endif %}" href="{{ item[1] }}">{{ item[0] }}</a>
 				</li>
 			{% endfor %}
 

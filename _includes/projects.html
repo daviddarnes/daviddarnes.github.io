@@ -1,0 +1,32 @@
+<section class="projects  main__projects">
+
+	{% if site.projects %}
+		<ul class="list  projects__list">
+
+			{% for project in site.projects %}
+				<li class="item  projects__item  item--content">
+					<article class="project  projects__project">
+
+						<h2 class="title  project__title">
+							{% if project.link %}
+								<a href="{{ project.link }}">
+									{{ project.title }}
+									<svg class="icon  title__icon">
+										<use xlink:href="#link"></use>
+									</svg>
+								</a>
+							{% else %}
+								<a href="{{ project.url }}">{{ project.title }}</a>
+							{% endif %}
+						</h2>
+
+						<p class="excerpt  project__excerpt">{{ project.excerpt }}</p>
+
+					</article>
+				</li>
+			{% endfor %}
+
+		</ul>
+	{% endif %}
+
+</section>

@@ -4,11 +4,20 @@
 		<ul class="list  articles__list">
 
 			{% for post in site.posts %}
-				<li class="item  articles__item">
+				<li class="item  articles__item  item--content">
 					<article class="article  articles__article">
 
 						<h2 class="title  article__title">
-							<a href="{{ post.url }}">{{ post.title }}</a>
+							{% if post.link %}
+								<a href="{{ post.link }}">
+									{{ post.title }}
+									<svg class="icon  title__icon">
+										<use xlink:href="#link"></use>
+									</svg>
+								</a>
+							{% else %}
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							{% endif %}
 						</h2>
 
 						<p class="excerpt  article__excerpt">{{ post.excerpt }}</p>

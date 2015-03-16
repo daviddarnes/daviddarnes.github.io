@@ -10,7 +10,7 @@ $sidebar-width: 20%;
 // Backgrounds
 $background-colour: #fff;
 
-// Borders & shadows
+// Borders and shadows
 $border-colour: #cbcbcb;
 $shadow-colour: $border-colour;
 $borders: 1px solid $border-colour;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 h1, h2 {
 	line-height: 1.6;
 	font-weight: 400;
-	margin-bottom: 0.15em;
+	margin-bottom: 0.15;
 }
 
 h2 {
@@ -60,14 +60,21 @@ a {
 }
 
 // Icons
-.link__icon {
+.icon {
 	vertical-align: text-top;
 	max-width: 18px;
 	max-height: 18px;
 	fill: lighten($text-colour, 30%);
 	transition: .2s;
-	&:hover {
+}
+
+a:hover {
+	.icon {
 		fill: $text-colour;
+	}
+	.logo__icon {
+		fill: transparent;
+		stroke: $text-colour;
 	}
 }
 
@@ -76,12 +83,15 @@ a {
 	max-height: 42px;
 	fill: transparent;
 	stroke: $border-colour;
-	transition: .2s;
-	&:hover {
-		stroke: $text-colour;
-	}
 }
 
+.title__icon {
+	fill: lighten($text-colour, 30%);
+	vertical-align: baseline;
+	max-width: 16px;
+	max-height: 16px;
+	margin-right: -22px;
+}
 
 // Header
 .header__info {
@@ -171,9 +181,18 @@ a {
 	padding: 25px;
 }
 
-// Articles
 
-// Portfolio items
+// Articles and projects
+.list {
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+}
+
+.item--content {
+	margin-bottom: 2em;
+}
+
 
 // Footer
 .footer__copyright {
