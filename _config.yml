@@ -18,20 +18,28 @@ exclude:
 # Permalinks
 permalink: pretty
 
+# Articles
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /article/:title/
 
 # Portfolio collection
 collections:
-  portfolio:
+  projects:
     output: true
     permalink: /project/:title/
 
 # Gems
 gems:
 - jekyll-sitemap
+- jekyll-redirect-from
 - jekyll-mentions
 - jemoji
 
-
 # Site info
-name: David Darnes
-profession: Web Designer & Front-end Developer
+name: "David Darnes"
+profession: "Web Designer & Front-end Developer"
