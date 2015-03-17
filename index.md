@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: front
 ---
 
-{% include articles.html %}
+# Latest Stuff

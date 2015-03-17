@@ -1,9 +1,9 @@
-<section class="projects  main__projects">
+<section class="projects">
 
 	{% if site.projects %}
 		<ul class="list  projects__list">
 
-			{% for project in site.projects %}
+			{% for project in site.projects limit:include.limit %}
 				<li class="item  projects__item  item--content">
 					<article class="project  projects__project">
 

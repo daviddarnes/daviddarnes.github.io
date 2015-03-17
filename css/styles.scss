@@ -94,7 +94,7 @@ a:hover {
 }
 
 // Header
-.header__info {
+.header--main {
 	color: lighten($text-colour, 30%);
 	transition: .2s;
 	margin-bottom: 1em;
@@ -113,7 +113,7 @@ a:hover {
 
 
 .info-line,
-.header__nav {
+.nav--networks {
 	display: inline;
 }
 
@@ -195,7 +195,7 @@ a:hover {
 
 
 // Footer
-.footer__copyright {
+.footer--main {
 	padding: 1em 0;
 	border-top: 1px solid lighten($border-colour, 10%);
 	color: lighten($text-colour, 30%);

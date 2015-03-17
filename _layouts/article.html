@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<article class="article  main__article">
+<article class="article">
 
 	{{ content }}
+
+	<time class="time  article__time">{{ page.date | date_to_string }}</time>
 
 </article>

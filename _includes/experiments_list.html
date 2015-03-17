@@ -1,9 +1,9 @@
-<section class="experiments  main__experiments">
+<section class="experiments">
 
 	{% if site.experiments %}
 		<ul class="list  experiments__list">
 
-			{% for experiment in site.experiments %}
+			{% for experiment in site.experiments limit:include.limit %}
 				<li class="item  experiments__item  item--content">
 					<article class="experiment  experiments__experiment">
 
