@@ -1,6 +1,8 @@
 ---
-layout: article
+title: Hello GitHub
+layout: default
 excerpt: Just testing that prose works
+category: article
 ---
 
 # Hello GitHub
