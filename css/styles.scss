@@ -66,32 +66,32 @@ a {
 	max-height: 18px;
 	fill: lighten($text-colour, 30%);
 	transition: .2s;
+	&--link {
+		fill: lighten($text-colour, 30%);
+		vertical-align: baseline;
+		max-width: 16px;
+		max-height: 16px;
+		margin-right: -22px;
+	}
 }
 
 a:hover {
 	.icon {
 		fill: $text-colour;
 	}
-	.logo__icon {
+	.sidebar__icon {
 		fill: transparent;
 		stroke: $text-colour;
 	}
 }
 
-.logo__icon {
+.sidebar__icon {
 	max-width: 42px;
 	max-height: 42px;
 	fill: transparent;
 	stroke: $border-colour;
 }
 
-.title__icon {
-	fill: lighten($text-colour, 30%);
-	vertical-align: baseline;
-	max-width: 16px;
-	max-height: 16px;
-	margin-right: -22px;
-}
 
 // Header
 .header--main {
@@ -111,8 +111,7 @@ a:hover {
 	}
 }
 
-
-.info-line,
+.line--inline,
 .nav--networks {
 	display: inline;
 }

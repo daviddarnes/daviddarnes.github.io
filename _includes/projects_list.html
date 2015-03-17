@@ -1,17 +1,17 @@
 <section class="projects">
 
 	{% if site.projects %}
-		<ul class="list  projects__list">
+		<ul class="list">
 
 			{% for project in site.projects limit:include.limit %}
-				<li class="item  projects__item  item--content">
-					<article class="project  projects__project">
+				<li class="item  item--content">
+					<article class="project">
 
-						<h2 class="title  project__title">
+						<h2 class="title">
 							{% if project.link %}
 								<a href="{{ project.link }}">
 									{{ project.title }}
-									<svg class="icon  title__icon">
+									<svg class="icon  icon--link">
 										<use xlink:href="#link"></use>
 									</svg>
 								</a>
@@ -20,7 +20,7 @@
 							{% endif %}
 						</h2>
 
-						<p class="excerpt  project__excerpt">{{ project.excerpt }}</p>
+						<p class="excerpt">{{ project.excerpt }}</p>
 
 					</article>
 				</li>

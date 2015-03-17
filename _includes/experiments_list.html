@@ -1,17 +1,17 @@
 <section class="experiments">
 
 	{% if site.experiments %}
-		<ul class="list  experiments__list">
+		<ul class="list">
 
 			{% for experiment in site.experiments limit:include.limit %}
-				<li class="item  experiments__item  item--content">
-					<article class="experiment  experiments__experiment">
+				<li class="item  item--content">
+					<article class="experiment">
 
-						<h2 class="title  experiment__title">
+						<h2 class="title">
 							{% if experiment.link %}
 								<a href="{{ experiment.link }}">
 									{{ experiment.title }}
-									<svg class="icon  title__icon">
+									<svg class="icon  icon--link">
 										<use xlink:href="#link"></use>
 									</svg>
 								</a>
@@ -20,7 +20,7 @@
 							{% endif %}
 						</h2>
 
-						<p class="excerpt  experiment__excerpt">{{ experiment.excerpt }}</p>
+						<p class="excerpt">{{ experiment.excerpt }}</p>
 
 					</article>
 				</li>
