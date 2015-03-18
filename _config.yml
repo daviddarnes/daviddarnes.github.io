@@ -7,26 +7,42 @@ gems:
 # Excluded files
 exclude:
 - README.md
+- LICENSE
+- bower_components
+- bower.json
+- gulpfile.js
+- node_modules
+- package.json
+- CNAME
 
-# Personal Networks and websites
-networks:
-  Twitter: http://twitter.com/daviddarnes
-  GitHub: http://github.com/daviddarnes
-  CodePen: http://codepen.io/daviddarnes
-  Website: http://david.darn.es
-  Blog: http://david.darn.es/blog
-  Tumblr: http://daviddarnes.tumblr.com
-  Dribbble: https://dribbble.com/daviddarnes
-  YouTube: http://youtube.com/daviddarnes
+# Permalinks
+permalink: pretty
 
-# Portfolio collection
+# Articles
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /articles/:title/
+
+# Portfolio and experiments collections
 collections:
-  portfolio:
+  projects:
     output: true
-    permalink: /project/:title/
+    permalink: /projects/:title/
+  experiments:
+    output: true
+    permalink: /experiments/:title/
 
 # Gems
 gems:
 - jekyll-sitemap
+- jekyll-redirect-from
 - jekyll-mentions
 - jemoji
+
+# Site info
+name: "David Darnes"
+profession: "Web Designer & Front-end Developer"

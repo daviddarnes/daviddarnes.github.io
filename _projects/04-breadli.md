@@ -3,7 +3,6 @@ title: Bread.li
 layout: default
 category: website
 link: http://bread.li
-icon: breadli
+excerpt: A screencast series showing the creation of a website from scratch
 ---
 
-> A directory site listing CMSs from around the web.

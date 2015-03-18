@@ -1,8 +1,0 @@
-<h2>Projects</h2>
-{% if site.portfolio %}
-   <ul>
-      {% for project in site.portfolio %}
-            <li class="{{ project.category }}">{{ project.category | capitalize }}: <a href="{{ project.link }}">{{ project.title }}</a></li>
-      {% endfor %}
-   </ul>
-{% endif %}

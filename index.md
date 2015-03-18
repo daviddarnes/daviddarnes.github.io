@@ -1,7 +1,7 @@
 ---
-layout: frontpage
+layout: front
 ---
 
-# David Darnes
+# Latest Stuff
 
-## Web Designer & Front-end Developer
+Articles, projects and experiments

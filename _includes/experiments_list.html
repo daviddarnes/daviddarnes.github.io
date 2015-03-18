@@ -1,0 +1,32 @@
+<section class="experiments">
+
+	{% if site.experiments %}
+		<ul class="list">
+
+			{% for experiment in site.experiments limit:include.limit %}
+				<li class="item  item--content">
+					<article class="experiment">
+
+						<h2 class="title">
+							{% if experiment.link %}
+								<a href="{{ experiment.link }}">
+									{{ experiment.title }}
+									<svg class="icon  icon--link">
+										<use xlink:href="#link"></use>
+									</svg>
+								</a>
+							{% else %}
+								<a href="{{ experiment.url }}">{{ experiment.title }}</a>
+							{% endif %}
+						</h2>
+
+						<p class="excerpt">{{ experiment.excerpt }}</p>
+
+					</article>
+				</li>
+			{% endfor %}
+
+		</ul>
+	{% endif %}
+
+</section>

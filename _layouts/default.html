@@ -1,8 +1,24 @@
 <head>
-  <link href="/css/styles.css" media="all" rel="stylesheet">
-  <title>David Darnes</title>
+	<meta charset="UTF-8">
+	<link href="/css/styles.css" media="all" rel="stylesheet">
+	<title>David Darnes</title>
+	{% include icons.svg %}
 </head>
 <body>
-  {{ content }}
+
+	{% include sidebar.html %}
+
+	<main class="main" role="main">
+
+		{% include header.html %}
+
+		{{ content }}
+
+		{% include footer.html %}
+
+	</main>
+
+	{% include scripts.html %}
+
 </body>
 
