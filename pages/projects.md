@@ -5,4 +5,4 @@ permalink: /projects/
 
 # Projects
 
-To be collated, see my [current portfolio](http://david.darn.es/portfolio/).
+All external links at the moment, will expand on their backgrounds soon.

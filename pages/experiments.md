@@ -5,4 +5,4 @@ permalink: /experiments/
 
 # Experiments
 
-To be collated, see my [current experiments](http://david.darn.es/experiments/).
+In the process of being transferred from my [current site](http://david.darn.es/experiments/).
