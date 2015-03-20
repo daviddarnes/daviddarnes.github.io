@@ -34,6 +34,8 @@ body {
 	box-sizing: border-box;
 }
 
+
+// Typography
 h1, h2, h3, h4, h5, h6, p, ul, ol {
 	margin-top: 0;
 }
@@ -59,13 +61,44 @@ a {
 	}
 }
 
-// Icons
+
+// SVG
+a {
+	.outline {
+		transition: 1s ease;
+		stroke: $text-colour;
+		stroke-dasharray: 116;
+		stroke-dashoffset: 116;
+	}
+	&:hover {
+		.icon {
+			fill: $text-colour;
+			&--logo {
+				fill: transparent;
+			}
+		}
+		.outline {
+			stroke-dashoffset: 0;
+		}
+	}
+}
+
 .icon {
 	vertical-align: text-top;
 	max-width: 18px;
 	max-height: 18px;
 	fill: lighten($text-colour, 30%);
 	transition: .2s;
+	&--logo {
+		max-width: 42px;
+		max-height: 42px;
+		fill: transparent;
+		stroke: $border-colour;
+		stroke-dasharray: 116;
+		stroke-dashoffset: 0;
+		-webkit-animation: outline 1s ease;
+		-webkit-animation-iteration-count: 1;
+	}
 	&--link {
 		fill: lighten($text-colour, 30%);
 		vertical-align: baseline;
@@ -75,21 +108,9 @@ a {
 	}
 }
 
-a:hover {
-	.icon {
-		fill: $text-colour;
-	}
-	.sidebar__icon {
-		fill: transparent;
-		stroke: $text-colour;
-	}
-}
-
-.sidebar__icon {
-	max-width: 42px;
-	max-height: 42px;
-	fill: transparent;
-	stroke: $border-colour;
+@-webkit-keyframes outline {
+	from	{ stroke-dashoffset: 116; }
+	to		{ stroke-dashoffset: 0; }
 }
 
 
@@ -134,9 +155,9 @@ a:hover {
 }
 
 .logo {
-	display: block;
 	border: none;
 	margin-bottom: 10px;
+	display: inline-block;
 }
 
 .nav__list {
