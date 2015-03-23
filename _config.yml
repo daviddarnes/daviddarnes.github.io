@@ -1,9 +1,3 @@
-# Gems
-gems:
-- jemoji
-- jekyll-mentions
-- jekyll-sitemap
-
 # Excluded files
 exclude:
 - README.md
