@@ -1,26 +1,45 @@
-<section class="experiments">
+<section class="section  section--experiments">
 
 	{% if site.experiments %}
-		<ul class="list">
+		<ul class="list  list--unstyled">
 
 			{% for experiment in site.experiments limit:include.limit %}
-				<li class="item  item--content">
-					<article class="experiment">
 
-						<h2 class="title">
-							{% if experiment.link %}
-								<a href="{{ experiment.link }}">
+				{% if experiment.link %}
+					{% assign link = experiment.link %}
+				{% else %}
+					{% assign link = experiment.url %}
+				{% endif %}
+
+				{% if experiment.icon %}
+					{% assign icon = experiment.icon %}
+				{% else %}
+					{% assign icon = 'experiment' %}
+				{% endif %}
+
+				<li class="item">
+					<article class="article  article--experiment">
+
+						<a class="link  link--icon" href="{{ link }}" title="{{ experiment.title }}">
+							<svg class="icon  icon--article">
+								<use class="outline--fade" xlink:href="#{{ icon }}"{% if experiment.colour %} fill="{{ experiment.colour }}"{% endif %}></use>
+							</svg>
+						</a>
+
+						<header class="header  header--article">
+							<h2 class="title">
+								<a href="{{ link }}" title="{{ experiment.title }}">
 									{{ experiment.title }}
-									<svg class="icon  icon--link">
-										<use xlink:href="#link"></use>
-									</svg>
+									{% if experiment.link %}
+										<svg class="icon  icon--link">
+											<use xlink:href="#link"></use>
+										</svg>
+									{% endif %}
 								</a>
-							{% else %}
-								<a href="{{ experiment.url }}">{{ experiment.title }}</a>
-							{% endif %}
-						</h2>
+							</h2>
 
-						<p class="excerpt">{{ experiment.excerpt }}</p>
+							<p class="excerpt">{{ experiment.excerpt }}</p>
+						</header>
 
 					</article>
 				</li>
