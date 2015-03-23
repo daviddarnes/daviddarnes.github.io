@@ -249,8 +249,12 @@ svg {
 			border-right-color: $background-colour;
 		}
 	}
-	&--unstyled {
+	&--unstyled,
+	&--icon {
 		border: none;
+	}
+	&--icon {
+		min-width: 52px;
 	}
 }
 
@@ -267,6 +271,13 @@ svg {
 
 // Site lists
 .list {
+	.link--icon,
+	.header--article {
+		float: left;
+	}
+	.link--icon {
+		margin-bottom: .6em;
+	}
 	&--unstyled {
 		list-style: none;
 		padding: 0;
@@ -278,4 +289,6 @@ svg {
 // Articles, projects and experiments
 .article {
 	padding-bottom: 2em;
+	display: flex;
+	align-items: center;
 }
