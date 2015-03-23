@@ -111,27 +111,27 @@ svg {
 
 // Animated SVG
 .outline {
-	&--onload,
-	&--fade {
+	&__onload,
+	&__fade {
 		stroke-dasharray: 122;
 		stroke-dashoffset: 0;
 	}
-	&--onload {
+	&__onload {
 		stroke: $border-colour;
 		-webkit-animation: outline 3s ease;
 		-webkit-animation-iteration-count: 1;
 	}
-	&--fade {
+	&__fade {
 		-webkit-animation: fade 3s ease;
 	}
-	&--hover {
+	&__hover {
 		stroke: $text-colour;
 		-webkit-transition: 1s ease;
 		transition: 1s ease;
 		stroke-dasharray: 122;
 		stroke-dashoffset: 122;
 	}
-	&:hover .outline--hover {
+	&:hover .outline__hover {
 		stroke-dashoffset: 0;
 		fill: transparent;
 	}
