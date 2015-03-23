@@ -1,10 +1,20 @@
 # Header navigation
 header:
-  Articles: /articles/
-  Projects: /projects/
-  Experiments: /experiments/
-  Contact: /contact/
-  About: /about/
+- title: Articles
+  url:  /articles/
+  icon: article
+- title: Projects
+  url: /projects/
+  icon: project
+- title: Experiments
+  url: /experiments/
+  icon: experiment
+- title: Contact
+  url: /contact/
+  icon: experiment
+- title: About
+  url: /about/
+  icon: experiment
 
 # Social networks
 networks:
