@@ -11,10 +11,10 @@ header:
   icon: experiment
 - title: Contact
   url: /contact/
-  icon: experiment
+  icon: discuss
 - title: About
   url: /about/
-  icon: experiment
+  icon: person
 
 # Social networks
 networks:
