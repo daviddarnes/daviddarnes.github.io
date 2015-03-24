@@ -66,8 +66,8 @@ a, a .fallback {
 svg {
 	stroke-linecap: round;
 	stroke-linejoin: round;
-	max-width: 18px;
-	max-height: 18px;
+	width: 18px;
+	height: 18px;
 }
 
 .icon {
@@ -75,14 +75,14 @@ svg {
 	transition: .2s;
 	stroke-width: 0.5;
 	&--logo {
-		max-width: 42px;
-		max-height: 42px;
+		width: 42px;
+		height: 42px;
 		fill: transparent;
 	}
 	&--main {
 		vertical-align: middle;
-		max-width: 20px;
-		max-height: 20px;
+		width: 20px;
+		height: 20px;
 	}
 	&--network {
 		vertical-align: text-top;
@@ -94,14 +94,14 @@ svg {
 	&--link {
 		vertical-align: baseline;
 		fill: lighten($text-colour, 30%);
-		max-width: 16px;
-		max-height: 16px;
+		width: 16px;
+		height: 16px;
 		margin-right: -22px;
 	}
 	&--article {
 		fill: $text-colour;
-		max-width: 42px;
-		max-height: 42px;
+		width: 42px;
+		height: 42px;
 		display: inline-block;
 		margin-right: 10px;
 	}
@@ -118,10 +118,12 @@ svg {
 	&__onload {
 		stroke: $border-colour;
 		-webkit-animation: outline 3s ease;
+		-moz-animation: outline 3s ease;
 		-webkit-animation-iteration-count: 1;
 	}
 	&__fade {
 		-webkit-animation: fade 3s ease;
+		-moz-animation: fade 3s ease;
 	}
 	&__hover {
 		stroke: $text-colour;
@@ -154,6 +156,19 @@ svg {
 	100%{ stroke-dashoffset: 0; }
 }
 
+@-moz-keyframes fade {
+	0%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: transparent; }
+	25%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: transparent; }
+	75%	{ stroke-dashoffset: 0;	  stroke: $border-colour; fill: transparent; }
+	100%{ stroke-dashoffset: 0;	  stroke: transparent; 	  fill: auto; }
+}
+
+@-moz-keyframes outline {
+	0%	{ stroke-dashoffset: 122; }
+	25%	{ stroke-dashoffset: 122; }
+	100%{ stroke-dashoffset: 0; }
+}
+
 
 // Header and footer
 .header {
@@ -178,6 +193,7 @@ svg {
 	// Article header
 	&--article {
 		display: inline-block;
+		flex: 1;
 	}
 }
 
@@ -246,7 +262,7 @@ svg {
 		&:after {
 			content: "";
 			position: absolute;
-			right: -18px;
+			right: -17px;
 			top: 1px;
 			height: 0;
 			width: 0;
@@ -254,10 +270,10 @@ svg {
 		}
 		&:before {
 			border-right-color: $border-colour;
-			right: -17px;
 		}
 		&:after {
 			border-right-color: $background-colour;
+			right: -18px;
 		}
 	}
 	&--unstyled,
@@ -343,6 +359,7 @@ svg {
 	.main {
 		width: auto;
 		margin-left: 60px;
+		padding: 15px 20px;
 	}
 	.item__title {
 		display: none;
