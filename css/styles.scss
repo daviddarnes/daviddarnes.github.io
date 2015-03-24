@@ -193,6 +193,7 @@ svg {
 	}
 }
 
+
 // Single line text
 .line {
 	color: lighten($text-colour, 30%);
@@ -201,6 +202,7 @@ svg {
 		display: inline;
 	}
 }
+
 
 // Sidebar
 .sidebar {
@@ -299,8 +301,11 @@ svg {
 .article {
 	padding-bottom: 2em;
 	display: flex;
+	display: -webkit-flex;
 	align-items: center;
+	-webkit-align-items: center;
 }
+
 
 // Responsive modifications
 @media (min-width: 700px) {
@@ -311,13 +316,13 @@ svg {
 @media (max-width: 700px) {
 	.sidebar {
 		text-align: center;
-		padding: 10px;
+		padding: 8px;
 		width: 60px;
 		line-height: 2.5em;
 	}
 	.link {
 		&--main {
-			padding: .7em;
+			padding: 9px;
 		}
 		&:hover,
 		&--current {
