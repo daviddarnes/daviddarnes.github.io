@@ -1,5 +1,6 @@
 ---
 layout: front
+title: Latest Stuff
 ---
 
 # Latest Stuff

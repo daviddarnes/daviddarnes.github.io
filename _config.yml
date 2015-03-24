@@ -1,9 +1,3 @@
-# Gems
-gems:
-- jemoji
-- jekyll-mentions
-- jekyll-sitemap
-
 # Excluded files
 exclude:
 - README.md
@@ -44,5 +38,5 @@ gems:
 - jemoji
 
 # Site info
-name: "David Darnes"
+title: "David Darnes"
 profession: "Web Designer & Front-end Developer"

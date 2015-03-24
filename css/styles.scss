@@ -79,6 +79,11 @@ svg {
 		max-height: 42px;
 		fill: transparent;
 	}
+	&--main {
+		vertical-align: middle;
+		max-width: 20px;
+		max-height: 20px;
+	}
 	&--network {
 		vertical-align: text-top;
 		fill: lighten($text-colour, 30%);
@@ -105,27 +110,27 @@ svg {
 
 // Animated SVG
 .outline {
-	&--onload,
-	&--fade {
+	&__onload,
+	&__fade {
 		stroke-dasharray: 122;
 		stroke-dashoffset: 0;
 	}
-	&--onload {
+	&__onload {
 		stroke: $border-colour;
 		-webkit-animation: outline 3s ease;
 		-webkit-animation-iteration-count: 1;
 	}
-	&--fade {
+	&__fade {
 		-webkit-animation: fade 3s ease;
 	}
-	&--hover {
+	&__hover {
 		stroke: $text-colour;
 		-webkit-transition: 1s ease;
 		transition: 1s ease;
 		stroke-dasharray: 122;
 		stroke-dashoffset: 122;
 	}
-	&:hover .outline--hover {
+	&:hover .outline__hover {
 		stroke-dashoffset: 0;
 		fill: transparent;
 	}
@@ -226,7 +231,11 @@ svg {
 	position: relative;
 	-webkit-transition: .2s;
 	transition: .2s;
-	&__list:hover,
+	&--logo {
+		min-width: auto;
+		line-height: 0;
+	}
+	&--main:hover,
 	&--current {
 		margin-right: -8px;
 	}
@@ -263,7 +272,7 @@ svg {
 .main {
 	float: left;
 	width: (100% - $sidebar-width);
-	max-width: 1024px;
+	max-width: 980px;
 	margin-left: $sidebar-width;
 	padding: 25px;
 }
@@ -291,4 +300,46 @@ svg {
 	padding-bottom: 2em;
 	display: flex;
 	align-items: center;
+}
+
+// Responsive modifications
+@media (min-width: 700px) {
+	.icon--main {
+		display: none;
+	}
+}
+@media (max-width: 700px) {
+	.sidebar {
+		text-align: center;
+		padding: 10px;
+		width: 60px;
+		line-height: 2.5em;
+	}
+	.link {
+		&--main {
+			padding: .7em;
+		}
+		&:hover,
+		&--current {
+			margin-right: 0;
+		}
+		&--current {
+			&:after,
+			&:before {
+				right: auto;
+				left: 34px;
+				top: 12px;
+			}
+			&:before {
+				left: 33px;
+			}
+		}
+	}
+	.main {
+		width: auto;
+		margin-left: 60px;
+	}
+	.item__title {
+		display: none;
+	}
 }
