@@ -144,10 +144,10 @@ svg {
 }
 
 @-webkit-keyframes fade {
-	0%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: transparent; }
-	25%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: transparent; }
-	75%	{ stroke-dashoffset: 0;	  stroke: $border-colour; fill: transparent; }
-	100%{ stroke-dashoffset: 0;	  stroke: transparent; 	  fill: auto; }
+	0%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: $background-colour; }
+	25%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: $background-colour; }
+	75%	{ stroke-dashoffset: 0;   stroke: $border-colour; fill: $background-colour; }
+	100%{ stroke-dashoffset: 0;   stroke: transparent;    fill: inherit; }
 }
 
 @-webkit-keyframes outline {
@@ -157,10 +157,10 @@ svg {
 }
 
 @-moz-keyframes fade {
-	0%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: transparent; }
-	25%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: transparent; }
-	75%	{ stroke-dashoffset: 0;	  stroke: $border-colour; fill: transparent; }
-	100%{ stroke-dashoffset: 0;	  stroke: transparent; 	  fill: auto; }
+	0%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: $background-colour; }
+	25%	{ stroke-dashoffset: 122; stroke: $border-colour; fill: $background-colour; }
+	75%	{ stroke-dashoffset: 0;   stroke: $border-colour; fill: $background-colour; }
+	100%{ stroke-dashoffset: 0;   stroke: transparent;    fill: inherit; }
 }
 
 @-moz-keyframes outline {
