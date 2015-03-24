@@ -83,7 +83,6 @@ svg {
 		vertical-align: middle;
 		max-width: 20px;
 		max-height: 20px;
-		margin-right: 20px;
 	}
 	&--network {
 		vertical-align: text-top;
@@ -273,7 +272,7 @@ svg {
 .main {
 	float: left;
 	width: (100% - $sidebar-width);
-	max-width: 1024px;
+	max-width: 980px;
 	margin-left: $sidebar-width;
 	padding: 25px;
 }
@@ -311,8 +310,7 @@ svg {
 }
 @media (max-width: 700px) {
 	.sidebar {
-		text-align: left;
-		white-space: nowrap;
+		text-align: center;
 		padding: 10px;
 		width: 60px;
 		line-height: 2.5em;
@@ -320,6 +318,10 @@ svg {
 	.link {
 		&--main {
 			padding: .7em;
+		}
+		&:hover,
+		&--current {
+			margin-right: 0;
 		}
 		&--current {
 			&:after,
