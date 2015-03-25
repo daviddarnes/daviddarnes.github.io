@@ -3,12 +3,7 @@
 		{% for networks in site.data.nav.networks %}
 			<a class="link  link--icon" href="{{ networks[1] }}" title="{{ networks[0] }}">
 				<svg class="icon  icon--network">
-					<switch>
-						<use xlink:href="#{{ networks[0] | downcase }}"></use>
-						<foreignObject width="100%" height="100%">
-							<span class="fallback">{{ networks[0] }}</span>
-						</foreignObject>
-					</switch>
+					<use xlink:href="#{{ networks[0] | downcase }}"></use>
 				</svg>
 			</a>
 		{% endfor %}

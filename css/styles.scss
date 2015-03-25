@@ -46,7 +46,7 @@ h2 {
 	color: lighten($text-colour, 10%);
 }
 
-a, a .fallback {
+a {
 	color: darken($text-colour, 10%);
 	text-decoration: none;
 	border-bottom: $borders;
@@ -199,6 +199,7 @@ svg {
 .footer {
 	// Site footer
 	&--main {
+		clear: both;
 		padding-top: .4em;
 		border-top: 1px solid lighten($border-colour, 10%);
 		color: lighten($text-colour, 30%);
@@ -310,6 +311,11 @@ svg {
 	}
 }
 
+.section {
+	&__item {
+		clear: both;
+	}
+}
 
 // Articles, projects and experiments
 .article {
