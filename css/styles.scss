@@ -46,7 +46,7 @@ h2 {
 	color: lighten($text-colour, 10%);
 }
 
-a, a .fallback {
+a {
 	color: darken($text-colour, 10%);
 	text-decoration: none;
 	border-bottom: $borders;
