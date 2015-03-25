@@ -9,6 +9,10 @@ exclude:
 - package.json
 - CNAME
 
+# SCSS
+sass:
+    style: :compressed
+
 # Permalinks
 permalink: pretty
 
