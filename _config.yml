@@ -14,16 +14,7 @@ sass:
     style: :compressed
 
 # Permalinks
-permalink: pretty
-
-# Articles
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: /articles/:title/
+permalink: /articles/:title/
 
 # Portfolio and experiments collections
 collections:
