@@ -1,0 +1,44 @@
+	<!-- General meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Title meta -->
+	<title>{{ page.title }} - {{ site.title }}</title>
+	<meta property="og:title" content="{{ page.title }}">
+	<meta name="twitter:title" content="{{ page.title }}">
+
+	{% if page.excerpt %}
+		<!-- Description meta -->
+		<meta name="description" content="{{ page.excerpt }}">
+		<meta property="og:description" content="{{ page.excerpt }}">
+		<meta name="twitter:description" content="{{ page.excerpt }}">
+	{% endif %}
+
+	<!-- Author meta -->
+	<meta name="author" content="{{ site.title }}">
+	<meta property="og:site_name" content="{{ site.title }}">
+
+	<!-- URL meta -->
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+	<meta name="robots" content="index, follow">
+
+	{% if page.url contains 'articles' %}
+		<!-- Article meta -->
+		<meta property="og:type" content="article">
+		<meta property="article:author" content="https://www.facebook.com/{{ site.meta.facebook }}" />
+		<meta name="twitter:creator" content="{{ site.meta.twitter }}">
+
+		<!-- Content type meta -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="{{ site.meta.twitter }}">
+		<meta name="twitter:domain" content="{{ site.url }}">
+	{% else %}
+		<meta property="og:type" content="website">
+	{% endif %}
+
+	{% if page.image %}
+		<!-- Image meta -->
+		<meta name="twitter:image:src" content="{{ page.image }}">
+		<meta property="og:image" content="{{ page.image }}">
+	{% endif %}

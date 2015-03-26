@@ -33,5 +33,10 @@ gems:
 - jemoji
 
 # Site info
+url: http://daviddarnes.github.io
 title: "David Darnes"
 profession: "Web Designer & Front-end Developer"
+
+meta:
+  twitter: "@DavidDarnes"
+  facebook: daviddarnes
