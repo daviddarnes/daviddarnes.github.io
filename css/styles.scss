@@ -22,7 +22,7 @@ $text-colour: #373737;
 
 // Globals
 body {
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 2;
 	color: $text-colour;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -41,10 +41,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 	margin-top: 0;
 }
 
-h1, h2 {
-	line-height: 1.6;
-	font-weight: 400;
+h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0.15em;
+}
+
+h1, h2 {
+	line-height: 1.6em;
+	font-weight: 400;
 }
 
 h2 {
@@ -320,17 +323,23 @@ svg {
 	&__item {
 		clear: both;
 	}
+	&__article {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
 }
+
 
 // Articles, projects and experiments
 .article {
-	padding-bottom: 2em;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
+	padding-bottom: 1em;
+	&--single {
+		padding-bottom: 2em;
+	}
 }
 
 
