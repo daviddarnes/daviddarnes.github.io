@@ -17,10 +17,13 @@
 	<!-- Author meta -->
 	<meta name="author" content="{{ site.title }}">
 	<meta property="og:site_name" content="{{ site.title }}">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="{{ site.meta.twitter }}">
 
 	<!-- URL meta -->
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+	<meta name="twitter:domain" content="{{ site.url }}">
 	<meta name="robots" content="index, follow">
 
 	{% if page.url contains 'articles' %}
@@ -28,11 +31,6 @@
 		<meta property="og:type" content="article">
 		<meta property="article:author" content="https://www.facebook.com/{{ site.meta.facebook }}" />
 		<meta name="twitter:creator" content="{{ site.meta.twitter }}">
-
-		<!-- Content type meta -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="{{ site.meta.twitter }}">
-		<meta name="twitter:domain" content="{{ site.url }}">
 	{% else %}
 		<meta property="og:type" content="website">
 	{% endif %}
