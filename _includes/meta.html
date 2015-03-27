@@ -15,7 +15,6 @@
 	{% endif %}
 
 	<!-- Author meta -->
-	<meta property="author" content="{{ site.title }}">
 	<meta property="og:site_name" content="{{ site.title }}">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="{{ site.meta.twitter }}">
@@ -38,6 +37,7 @@
 		<!-- Article meta -->
 		<meta property="og:type" content="article">
 		<meta property="article:author" content="https://www.facebook.com/{{ site.meta.facebook }}" />
+		<meta property="author" content="{{ site.title }}">
 		<meta name="twitter:creator" content="{{ site.meta.twitter }}">
 	{% else %}
 		<meta property="og:type" content="website">
