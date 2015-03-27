@@ -1,6 +1,7 @@
 ---
 layout: articles
 title: Articles
+excerpt: In the process of being transferred
 permalink: /articles/
 ---
 

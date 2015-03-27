@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+excerpt: Looking for a contact form? Or even just an email?
 permalink: /contact/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+excerpt: "I'm a Web Designer & Developer"
 permalink: /about/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: experiments
 title: Experiments
+excerpt: In the process of being transferred
 permalink: /experiments/
 ---
 
