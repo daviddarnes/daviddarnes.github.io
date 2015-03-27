@@ -44,11 +44,11 @@
 
 	{% if page.image %}
 		<!-- Image meta -->
-		<meta name="twitter:image:src" content="{{ page.image }}">
 		<meta property="og:image" content="{{ page.image }}">
+		<meta name="twitter:image:src" content="{{ page.image }}">
 	{% else %}
 		<!-- Image meta -->
-		<meta name="twitter:image:src" content="{{ site.url }}/images/favicons/mstile-310x310.png">
 		<meta property="og:image" content="{{ site.url }}/images/favicons/mstile-310x310.png">
+		<meta name="twitter:image:src" content="{{ site.url }}/images/favicons/mstile-310x310.png">
 	{% endif %}
 
