@@ -7,7 +7,7 @@ excerpt: Updates to my experiments and personal projects
 
 # Experiment & Project Updates
 
-I've been working on a few of my personal projects and experiments this weekend and thought it might be worth rounding them up in a shortish article. That way I can show new features or changes, plus give you a chance to checkout some stuff you might have not checked out before.
+I've been working on a few of my personal projects and experiments this weekend and thought it might be worth rounding them up in a short-ish article. That way I can show new features or changes, plus give you a chance to check out some of my older stuff.
 
 ## Bit Podcast
 
@@ -15,7 +15,7 @@ I've been working on a few of my personal projects and experiments this weekend 
 
 We tried to use [SoundCloud's podcast feature](http://help.soundcloud.com/customer/portal/articles/1209292-can-i-podcast-with-soundcloud-), which is currently in beta, but after episode 20 we hit the upload limit. So we reverted back to regular file uploading to an Amazon S3 account.
 
-Initially we used an XML file to provide a podcast feed, I think this was more suitable for iTunes at the time. It now seems that iTunes prefers RSS. Due to this I spent some of this weekend reworking the feed for RSS and getting it up to spec. I used the [W3C Feed Validator](http://validator.w3.org/feed/) along with this lengthy page called ['Making a Podcast'](https://www.apple.com/uk/itunes/podcasts/specs.html) on the Apple website.
+Initially we used an XML file to provide a podcast feed, I think this was more suitable for iTunes at the time. It now seems that iTunes prefers RSS. Due to this I spent some of this weekend reworking the feed for RSS and getting it up to spec. I used the [W3C Feed Validation Service](http://validator.w3.org/feed/) along with this lengthy page called ['Making a Podcast'](https://www.apple.com/uk/itunes/podcasts/specs.html) on the Apple website.
 
 You can check out the new [RSS feed file I created on GitHub](https://github.com/nouveller/bitpodcast.com/blob/gh-pages/podcast.rss). It's using the liquid templating language just like the rest of the site is. Also, if you're interested in listening to the show you can [subscribe using this link](https://bitpodcast.com/podcast.rss).
 
