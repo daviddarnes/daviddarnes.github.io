@@ -9,4 +9,6 @@ permalink: /contact/
 
 The best way to contact me is to just [tweet me](https://twitter.com/intent/tweet?screen_name=DavidDarnes), it is {{ site.time | date: '%Y' }} after all :wink:.
 
-<!-- {% include form.html %} -->
+Or you can use this form:
+
+{% include form.html %}
