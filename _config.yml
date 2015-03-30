@@ -32,6 +32,8 @@ gems:
 - jekyll-mentions
 - jemoji
 
+jekyll-mentions: https://twitter.com
+
 # Site info
 url: http://daviddarnes.github.io
 title: "David Darnes"
