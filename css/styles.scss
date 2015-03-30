@@ -58,7 +58,7 @@ a {
 	color: darken($text-colour, 10%);
 	text-decoration: none;
 	border-bottom: $borders;
-	transition: .2s;
+	transition: .2s border;
 	font-weight: 500;
 	&:hover {
 		border-color: darken($border-colour, 30%);
@@ -66,6 +66,31 @@ a {
 			fill: $text-colour;
 		}
 	}
+}
+
+
+// Forms
+input, textarea {
+	clear: both;
+	width: 100%;
+	padding: .5em .8em;
+	margin-bottom: 1em;
+	margin-top: 0;
+	border: 1px solid $border-colour;
+	transition: border .2s;
+	resize: vertical;
+	&:hover {
+		border-color: darken($border-colour, 30%);
+	}
+	&:focus {
+		outline: none;
+		border-color: darken($border-colour, 30%);
+	}
+}
+
+input[type=submit] {
+	width: auto;
+	background: none;
 }
 
 
