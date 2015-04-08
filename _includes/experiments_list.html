@@ -29,12 +29,7 @@
 						<header class="header  header--article">
 							<h2 class="title">
 								<a href="{{ link }}" title="{{ experiment.title }}">
-									{{ experiment.title }}
-									{% if experiment.link %}
-										<svg class="icon  icon--link">
-											<use xlink:href="#link"></use>
-										</svg>
-									{% endif %}
+									{{ experiment.title }}{% if experiment.link %}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>{% endif %}
 								</a>
 							</h2>
 
