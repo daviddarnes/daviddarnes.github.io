@@ -232,6 +232,7 @@ svg {
 .footer {
 	// Site footer
 	&--main {
+		margin-top: 15px;
 		clear: both;
 		padding-top: .4em;
 		border-top: 1px solid lighten($border-colour, 10%);
@@ -346,7 +347,6 @@ svg {
 }
 
 .section {
-	margin-bottom: 15px;
 	&__item {
 		clear: both;
 	}
