@@ -129,7 +129,8 @@ svg {
 		fill: lighten($text-colour, 30%);
 		width: 16px;
 		height: 16px;
-		margin-right: -22px;
+		margin-right: -1em;
+		margin-left: .2em;
 	}
 	&--article {
 		fill: $text-colour;
