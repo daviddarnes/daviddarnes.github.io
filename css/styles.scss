@@ -341,10 +341,12 @@ svg {
 		list-style: none;
 		padding: 0;
 		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
 
 .section {
+	margin-bottom: 15px;
 	&__item {
 		clear: both;
 	}
