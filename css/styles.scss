@@ -70,6 +70,10 @@ a {
 	}
 }
 
+small {
+	color: lighten($text-colour, 30%);
+}
+
 
 // Forms
 input, textarea {
