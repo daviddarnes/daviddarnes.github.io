@@ -60,7 +60,6 @@ a {
 	border-bottom: $borders;
 	transition: .2s border;
 	font-weight: 500;
-	display: inline-block;
 	line-height: initial;
 	&:hover {
 		border-color: darken($border-colour, 30%);
