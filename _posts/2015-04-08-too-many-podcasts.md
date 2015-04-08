@@ -11,7 +11,7 @@ I've had to take a break from listening to podcasts as all I've been doing in pl
 
 ## The list
 
-Here's a list of everything I am subsribed to on my podcasts app:
+Here's a list of everything I am subscribed to on my podcasts app:
 
 - [Reply All](http://gimletmedia.com/show/reply-all/)
 - [ShopTalk](http://shoptalkshow.com/)
@@ -24,7 +24,7 @@ Here's a list of everything I am subsribed to on my podcasts app:
 - [Narwhals](http://www.narwhals.cool/)
 - [CodePen Radio](http://blog.codepen.io/radio/)
 
-That's a lot, especially how most of them are on a weekly cycle. I wish they were all more like the [One Design Podcast](http://onedesign.guide/) and only worked on a fortnight basis, at least that way I could find a way to keep up.
+That's a lot, especially how most of them are on a weekly cycle. I wish they were all more like the [One Design Podcast](http://onedesign.guide/) and only worked on a fortnightly basis, at least that way I could find a way to keep up.
 
 _PS. That list is in order of preference, if you do want to listen to any then start from the top._
 
