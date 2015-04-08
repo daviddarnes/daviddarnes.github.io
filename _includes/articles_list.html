@@ -29,12 +29,7 @@
 						<header class="header  header--article">
 							<h2 class="title">
 								<a href="{{ link }}" title="{{ post.title }}">
-									{{ post.title }}
-									{% if post.link %}
-										<svg class="icon  icon--link">
-											<use xlink:href="#link"></use>
-										</svg>
-									{% endif %}
+									{{ post.title }}{% if post.link %}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>{% endif %}
 								</a>
 							</h2>
 							<p class="excerpt">{{ post.excerpt }}</p>
