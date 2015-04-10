@@ -82,8 +82,14 @@ input, textarea {
 	margin-bottom: 1em;
 	margin-top: 0;
 	border: 1px solid $border-colour;
+	border-radius: 0;
+	-webkit-appearance: none;
 	transition: border .2s;
 	resize: vertical;
+	@media (max-width: 700px) {
+		font-size: 16px;
+		display: block;
+	}
 	&:hover {
 		border-color: darken($border-colour, 30%);
 	}
@@ -403,6 +409,22 @@ svg {
 			}
 		}
 	}
+	.profession {
+		display: none;
+	}
+	.header--main {
+		&:hover {
+			.link {
+				margin-left: 0;
+			}
+			.line {
+				color: lighten($text-colour, 30%);
+			}
+		}
+		.link {
+			opacity: 1;
+		}
+	}
 	.main {
 		width: auto;
 		margin-left: 60px;
@@ -410,5 +432,8 @@ svg {
 	}
 	.item__title {
 		display: none;
+	}
+	textarea {
+		padding: .2em .68em;
 	}
 }
