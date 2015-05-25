@@ -164,6 +164,7 @@ svg {
 		animation: outline 3s ease 1;
 	}
 	&__fade {
+		stroke: $border-colour;
 		-webkit-animation: fade 3s ease 1;
 		animation: fade 3s ease 1;
 	}
@@ -190,14 +191,14 @@ svg {
 	0%	{ stroke-dashoffset: 122; stroke: $border-colour; fill-opacity: 0; }
 	25%	{ stroke-dashoffset: 122; stroke: $border-colour; fill-opacity: 0; }
 	75%	{ stroke-dashoffset: 0;   stroke: $border-colour; fill-opacity: 0; }
-	100%{ stroke-dashoffset: 0;   stroke: transparent;    fill-opacity: 1; }
+	100%	{ stroke-dashoffset: 0;   stroke: transparent;    fill-opacity: 1; }
 }
 
 @keyframes fade {
 	0%	{ stroke-dashoffset: 122; stroke: $border-colour; fill-opacity: 0; }
 	25%	{ stroke-dashoffset: 122; stroke: $border-colour; fill-opacity: 0; }
 	75%	{ stroke-dashoffset: 0;   stroke: $border-colour; fill-opacity: 0; }
-	100%{ stroke-dashoffset: 0;   stroke: transparent;    fill-opacity: 1; }
+	100%	{ stroke-dashoffset: 0;   stroke: transparent;    fill-opacity: 1; }
 }
 
 @-webkit-keyframes outline {
