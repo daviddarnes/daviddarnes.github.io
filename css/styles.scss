@@ -164,7 +164,6 @@ svg {
 		animation: outline 3s ease 1;
 	}
 	&__fade {
-		stroke: $border-colour;
 		-webkit-animation: fade 3s ease 1;
 		animation: fade 3s ease 1;
 	}
@@ -204,13 +203,13 @@ svg {
 @-webkit-keyframes outline {
 	0%	{ stroke-dashoffset: 122; }
 	25%	{ stroke-dashoffset: 122; }
-	100%{ stroke-dashoffset: 0; }
+	100%	{ stroke-dashoffset: 0; }
 }
 
 @keyframes outline {
 	0%	{ stroke-dashoffset: 122; }
 	25%	{ stroke-dashoffset: 122; }
-	100%{ stroke-dashoffset: 0; }
+	100%	{ stroke-dashoffset: 0; }
 }
 
 
