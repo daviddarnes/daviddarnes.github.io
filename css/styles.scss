@@ -164,7 +164,8 @@ svg {
 		animation: outline 3s ease 1;
 	}
 	&__fade {
-		-webkit-animation: fade 3s ease 1;
+	  	stroke: transparent;
+	  	-webkit-animation: fade 3s ease 1;
 		animation: fade 3s ease 1;
 	}
 	&__hover {
