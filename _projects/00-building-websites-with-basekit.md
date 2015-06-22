@@ -1,5 +1,3 @@
-
-
 ---
 title: Building Websites With BaseKit
 layout: default
