@@ -96,6 +96,6 @@ So to solve this issue once and for all I've created a list of **all** the ways 
 
 ---
 
-Now that I've have this clearly documented I won't have to guess records everytime I come to setting up GitHub Pages :+1:. Hopefully this will help you as well. If you know a better way, just [submit a pull request to this article](https://github.com/daviddarnes/daviddarnes.github.io).
+Now that I've have this clearly documented I won't have to guess records every time I come to setting up GitHub Pages :+1:. Hopefully this will help you as well. If you know a better way, just [submit a pull request to this article](https://github.com/daviddarnes/daviddarnes.github.io).
 
 Cheers, Dave
