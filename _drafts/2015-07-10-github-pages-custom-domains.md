@@ -7,11 +7,11 @@ excerpt: "So you want to use GitHub Pages to host a website…"
 
 # GitHub Pages & Custom Domains
 
-I love GitHub Pages. So much so that I've created several websites using it. This site runs on it, [and]() a [few]() [others](). What I don't love is setting up domain records. It's up there with setting up email accounts and doing the dishes.
+I love [GitHub Pages](https://pages.github.com/). So much so that I've created several websites using it. This site runs on it, [and](http://docs.basekit.com/) a [few](http://emaildebtforgiveness.me/) [others](http://jessgurr.com). What I don't love is setting up domain records. It's up there with setting up email accounts and doing the dishes.
 
 ## The problem
 
-The issue I have with domain records and GitHub Pages is [the documentation](), it's not very clear to the average front-end developer like myself (it might just be me though). Also setting up domain records isn't a regular thing for me, it's normally done at the start or end of a project that's taken a few weeks to put together. So it doesn't stay fresh in my mind.
+The issue I have with domain records and GitHub Pages is [the documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/), it's not very clear to the average front-end developer like myself (it might just be me though). Also setting up domain records isn't a regular thing for me, it's normally done at the start or end of a project that's taken a few weeks to put together. So it doesn't stay fresh in my mind.
 
 So to solve this issue once and for all I've created a list of **all** the ways you can use GitHub Pages and a custom domain.
 
@@ -92,3 +92,9 @@ So to solve this issue once and for all I've created a list of **all** the ways 
   2. Create a `gh-pages` branch
 
   3. It will appear at `subdomain.website.com/project-repo`
+
+---
+
+Now that I've have this clearly documented I won't have to guess records everytime I come to setting up GitHub Pages :+1:. Hopefully this will help you as well. If you know a better way, just [submit a pull request to this article](https://github.com/daviddarnes/daviddarnes.github.io).
+
+Cheers, Dave
