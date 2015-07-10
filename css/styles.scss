@@ -73,6 +73,16 @@ small {
 	color: lighten($text-colour, 30%);
 }
 
+code {
+	word-break: break-word;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background: $border-colour;
+}
+
 
 // Forms
 input, textarea {
