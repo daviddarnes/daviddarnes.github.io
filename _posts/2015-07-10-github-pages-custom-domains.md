@@ -4,8 +4,10 @@ layout: article
 category: tutorial
 icon: tutorial
 colour: "#222222"
-excerpt: "So you want to use GitHub Pages to host a website..."
+excerpt: So you want to use GitHub Pages to host a website...
+published: true
 ---
+
 
 # GitHub Pages & Custom Domains
 
@@ -85,6 +87,6 @@ It might be worth checking out this article on [understanding DNS](http://blog.w
 
 ## The conclusion
 
-Now that I've have this clearly documented I won't have to guess records every time I come to setting up GitHub Pages :+1:. Hopefully this will help you as well. If you know a better way, just [submit a pull request to this article](https://github.com/daviddarnes/daviddarnes.github.io/blob/master/_posts/2015-07-10-github-pages-custom-domains.md). Thanks to @createdbypete and @jdennes for help on getting these right.
+Now that I've have this clearly documented I won't have to guess records every time I come to setting up GitHub Pages :+1:. Hopefully this will help you as well. If you know a better way, just [submit a pull request to this article](https://github.com/daviddarnes/daviddarnes.github.io/blob/master/_posts/2015-07-10-github-pages-custom-domains.md). Thanks to @createdbypete and @jdennes for help on getting these right, plus @hvd and @BenjaminReid for proof reading :star:.
 
 Cheers, Dave
