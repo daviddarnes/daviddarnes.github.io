@@ -5,7 +5,11 @@ category: article
 excerpt: "So you want to use GitHub Pages to host a website…"
 ---
 
-## So you want to use GitHub Pages to host a website…
+# So you want to use GitHub Pages to host a website...
+
+I love GitHub Pages. So much so that I've created several websites using it. This site runs on it, and a few others. What I don't love is setting up domain records. It's up there with setting up email accounts and doing the dishes.
+
+The issue I have with domain records and GitHub Pages is the documentation for it, it's not very clear to the average front-end developer like myself (it might just be me though). Also setting up domain records isn't a regular thing for me, it's normally done at the start or end of a project that's taken a few weeks to put together. So it doesn't stay fresh in my mind.
 
 ### If you're using `name.github.io`:
 
