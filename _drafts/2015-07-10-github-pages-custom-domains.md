@@ -43,6 +43,8 @@ So to solve this issue once and for all I've created a list of **all** the ways 
 
   3. Create a `CNAME` file containing `website.com`
 
+---
+
 ### If you're using a normal repo, e.g. `project-repo`
 
 - #### Custom subdomain, e.g. `subdomain.website.com`:
