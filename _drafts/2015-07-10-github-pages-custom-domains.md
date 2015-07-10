@@ -5,87 +5,88 @@ category: article
 excerpt: "So you want to use GitHub Pages to host a website…"
 ---
 
-# So you want to use GitHub Pages to host a website...
+# GitHub Pages & Custom Domains
 
-I love GitHub Pages. So much so that I've created several websites using it. This site runs on it, and a few others. What I don't love is setting up domain records. It's up there with setting up email accounts and doing the dishes.
+I love GitHub Pages. So much so that I've created several websites using it. This site runs on it, [and]() a [few]() [others](). What I don't love is setting up domain records. It's up there with setting up email accounts and doing the dishes.
 
-The issue I have with domain records and GitHub Pages is the documentation for it, it's not very clear to the average front-end developer like myself (it might just be me though). Also setting up domain records isn't a regular thing for me, it's normally done at the start or end of a project that's taken a few weeks to put together. So it doesn't stay fresh in my mind.
+## The problem
 
-### If you're using `name.github.io`:
+The issue I have with domain records and GitHub Pages is [the documentation](), it's not very clear to the average front-end developer like myself (it might just be me though). Also setting up domain records isn't a regular thing for me, it's normally done at the start or end of a project that's taken a few weeks to put together. So it doesn't stay fresh in my mind.
 
-- **Custom subdomain:**
+So to solve this issue once and for all I've created a list of **all** the ways you can use GitHub Pages and a custom domain.
 
-  Create the record
+## So you want to use GitHub Pages to host a website...
+
+### If you're using a `name.github.io` repo
+
+- #### Using a custom subdomain, e.g. `subdomain.website.com`:
+
+  1. Create the record
+    ```
+    subdomain.website.com. CNAME name.github.io.
+    ```
+
+  2. It will use the `master` branch
+
+  3. Create a `CNAME` file containing `subdomain.website.com`
+
+- #### Using a Custom naked domain, e.g. `website.com`:
+
+  1. Create the records
   
-  ```
-  subdomain.website.com. CNAME name.github.io.
-  ```
+    ```
+    website.com. A 192.30.252.153
+    website.com. A 192.30.252.154
+    ```
 
-  It will use the `master` branch
+  2. It will use the `master` branch
 
-  Create a `CNAME` file containing `subdomain.website.com`
+  3. Create a `CNAME` file containing `website.com`
 
-- **Custom naked domain:**
+### If you're using a normal repo, e.g. `project-repo`
 
-  Create the records
-  
-  ```
-  website.com. A 192.30.252.153
-  website.com. A 192.30.252.154
-  ```
+- #### Custom subdomain, e.g. `subdomain.website.com`:
 
-  It will use the `master` branch
+  1. Create the record
+    ```
+    subdomain.website.com. CNAME name.github.io.
+    ```
 
-  Create a `CNAME` file containing `website.com`
+  2. Create a `gh-pages` branch
 
-### If you're using a normal repo, e.g. `project-repo`:
+  3. Create a `CNAME` file containing `subdomain.website.com`
 
-- **Custom subdomain:**
+- #### Custom naked domain, e.g. `website.com`:
 
-  Create the record
-  
-  ```
-  subdomain.website.com. CNAME name.github.io.
-  ```
+  1. Create the records
+    ```
+    website.com. A 192.30.252.153
+    website.com. A 192.30.252.154
+    ```
 
-  Create a `gh-pages` branch
+  2. Create a `gh-pages` branch
 
-  Create a `CNAME` file containing `subdomain.website.com`
+  3. Create a `CNAME` file containing `website.com`
 
-- **Custom naked domain:**
+- #### Custom subdirectory, e.g. `website.com/poject-repo`:
 
-  Create the records
-  
-  ```
-  website.com. A 192.30.252.153
-  website.com. A 192.30.252.154
-  ```
+  1. Create the records
+    ```
+    website.com. A 192.30.252.153
+    website.com. A 192.30.252.154
+    ```
 
-  Create a `gh-pages` branch
+  2. Create a `gh-pages` branch
 
-  Create a `CNAME` file containing `website.com`
+  3. It will appear at `website.com/project-repo`
 
-- **Custom subdirectory:**
+- #### Custom subdomain and subdirectory, e.g. `subdomain.website.com/poject-repo`:
 
-  Create the records
-  
-  ```
-  website.com. A 192.30.252.153
-  website.com. A 192.30.252.154
-  ```
+  1. Create the record
+    ```
+    subdomain.website.com. CNAME name.github.io.
+    ```
 
-  Create a `gh-pages` branch
+  2. Create a `gh-pages` branch
 
-  It will appear at `website.com/project-repo`
-
-- **Custom subdomain and subdirectory:**
-
-  Create the record
-  
-  ```
-  subdomain.website.com. CNAME name.github.io.
-  ```
-
-  Create a `gh-pages` branch
-
-  It will appear at `subdomain.website.com/project-repo`
+  3. It will appear at `subdomain.website.com/project-repo`
