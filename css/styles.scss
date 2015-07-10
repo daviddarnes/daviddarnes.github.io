@@ -50,8 +50,27 @@ h1, h2 {
 	font-weight: 400;
 }
 
-h2 {
+h3 {
+	font-weight: 500
+}
+
+h2, h3, h4 {
 	color: lighten($text-colour, 10%);
+}
+
+p {
+	margin-bottom: 1.6em;
+}
+ul, ol {
+	margin-bottom: 1.6em;
+	padding-left: 1.3em;
+	p {
+		margin-bottom: 0;
+	}
+}
+
+li {
+	margin-bottom: .2em;
 }
 
 a {
@@ -75,12 +94,14 @@ small {
 
 code {
 	word-break: break-word;
+	padding: .1em .2em;
+	border: 1px solid lighten($border-colour, 10%);
 }
 
 hr {
 	height: 1px;
 	border: none;
-	background: $border-colour;
+	background: lighten($border-colour, 10%);
 }
 
 
@@ -306,6 +327,7 @@ svg {
 .link {
 	position: relative;
 	transition: .2s;
+	color: lighten($text-colour, 30%);
 	&--logo {
 		min-width: auto;
 		line-height: 0;
@@ -313,6 +335,7 @@ svg {
 	&--main:hover,
 	&--current {
 		margin-right: -8px;
+		color: $text-colour;
 	}
 	&--current {
 		&:before,
