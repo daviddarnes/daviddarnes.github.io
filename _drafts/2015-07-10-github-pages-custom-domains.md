@@ -1,7 +1,8 @@
 ---
 title: 'GitHub Pages & Custom Domains'
 layout: article
-category: article
+category: tutorial
+colour: "#222222"
 excerpt: "So you want to use GitHub Pages to host a website…"
 ---
 
