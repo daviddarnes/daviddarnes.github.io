@@ -9,6 +9,7 @@ published: true
 ---
 
 
+
 # GitHub Pages & Custom Domains
 
 I love [GitHub Pages](https://pages.github.com/). So much so that I've created several websites using it. This site runs on it, [and](http://docs.basekit.com/) a [few](http://emaildebtforgiveness.me/) [others](http://jessgurr.com). What I don't love is setting up domain records. It's up there with setting up email accounts and doing the dishes.
@@ -87,6 +88,6 @@ It might be worth checking out this article on [understanding DNS](http://blog.w
 
 ## The conclusion
 
-Now that I've have this clearly documented I won't have to guess records every time I come to setting up GitHub Pages :+1:. Hopefully this will help you as well. If you know a better way, just [submit a pull request to this article](https://github.com/daviddarnes/daviddarnes.github.io/blob/master/_posts/2015-07-10-github-pages-custom-domains.md). Thanks to @createdbypete and @jdennes for help on getting these right, plus @hvd and @BenjaminReid for proof reading :star:.
+Now that I've have this clearly documented I won't have to guess records every time I come to setting up GitHub Pages :+1:. Hopefully this will help you as well. If you know a better way, just [submit a pull request to this article](https://github.com/daviddarnes/daviddarnes.github.io/blob/master/_posts/2015-07-10-github-pages-custom-domains.md). Thanks to @createdbypete and @jdennes for help on getting these right, plus @BenjaminReid for proof reading :star:.
 
 Cheers, Dave
