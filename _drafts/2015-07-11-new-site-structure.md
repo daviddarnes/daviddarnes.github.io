@@ -4,7 +4,7 @@ published: false
 
 # New Site Structure Plans
 
-I'm currently in the process of shifting things over from old to new with regards to my personal site. As many others, I also suffer from "leaving personal work until last". [In my last article related to this](https://github.com/daviddarnes/daviddarnes.github.io/blob/master/_posts/2015-03-24-hello-github.md) I said I'd be switching my WordPress content over from it to this site. Currently I've only transferred the articles and they are sitting in drafts right now. This is mainly because I've yet to style some elements on this site, such as images in articles. Plus I'm avoiding the dreaded domain transfer process, which shouldn't be so hard now [I've documented it](http://daviddarnes.github.io/articles/github-pages-custom-domains/).
+I'm currently in the process of shifting things over from old to new with regards to my personal site. As many others, I also suffer from "leaving personal work until last". [In my last article related to this](https://github.com/daviddarnes/daviddarnes.github.io/blob/master/_posts/2015-03-24-hello-github.md) I said I'd be switching my WordPress content over from it to this site. Currently I've only transferred the articles and they are sitting in drafts. This is mainly because I've yet to style some elements on this site, such as images in articles. Plus I'm avoiding the dreaded domain transfer process, which shouldn't be hard now [I've documented it](http://daviddarnes.github.io/articles/github-pages-custom-domains/).
 
 ## The structure
 
@@ -12,7 +12,7 @@ Recently I've thought about structure. It is only thoughts though. So in the spi
 
 ## david.darn.es
 
-My main website sits on [david.darn.es](http://david.darn.es) (that's the WordPress one). This is actually a subdomain of [darn.es](http://darn.es). Subdomains are actually quite good for custom domains with github.io sites. So when I've transferred all the content, fixed any presentation of posts, and made sure urls are being redirected correctly I can then shut down the WordPress site and switch over to this GitHub Pages site.
+My main website sits on [david.darn.es](http://david.darn.es) (that's the WordPress one). This is actually a subdomain of [darn.es](http://darn.es). Subdomains are actually quite good for custom domains with github.io sites. So when I've transferred all the content, fixed any presentation of posts, and redirected all the old urls correctly I can then shut down the WordPress site.
 
 ## darn.es
 
@@ -31,6 +31,6 @@ Here's a sitemap-esque list:
 
 ## And that's it
 
-Simple enough right? Ha, you joker. At least my design skills can be focused on my "calling card" site rather than this site. This subdomain site will probably focus on personal articles, a full portfolio of projects and experiments, who I am and a way to get in touch. Thanks for reading, especially if you got this far. Hopefully I'll actually complete what I've mentioned above, time is truly my only challenge.
+Simple enough right? Ha, you joker. At least my design skills can focus on my "calling card" site rather than this site. This subdomain site will probably focus on personal articles, a full portfolio of projects and experiments, who I am and a way to get in touch. Thanks for reading, especially if you got this far. Hopefully I'll actually complete what I've mentioned above, time is truly my only challenge.
 
 Cheers, Dave
