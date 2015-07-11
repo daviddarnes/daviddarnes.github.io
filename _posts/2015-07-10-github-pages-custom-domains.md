@@ -8,9 +8,6 @@ excerpt: So you want to use GitHub Pages to host a website...
 published: true
 ---
 
-
-
-
 # GitHub Pages & Custom Domains
 
 I love [GitHub Pages](https://pages.github.com/). So much so that I've created several websites using it. This site runs on it, [and](http://docs.basekit.com/) a [few](http://emaildebtforgiveness.me/) [others](http://jessgurr.com). What I don't love is setting up domain records. It's up there with setting up email accounts and doing the dishes.
