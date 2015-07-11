@@ -1,10 +1,12 @@
 ---
-title: "New Site Structure Plans"
+title: New Site Structure Plans
 layout: article
 category: article
 icon: article
 excerpt: "I'm currently in the process of shifting things over from old to new with regards to my personal site"
+published: true
 ---
+
 
 # New Site Structure Plans
 
@@ -29,6 +31,7 @@ So what I'm hoping to do is to pull out that PHP and run it as a standalone file
 ## Structure
 
 Here's a sitemap-esque list:
+
 - [darn.es](http://darn.es): Online card
   - [david.darn.es](http://david.darn.es): Blog & portfolio
   - [david.darn.es/experiment-name/](david.darn.es/experiment-name/): Personal experiments url
