@@ -1,10 +1,8 @@
 ---
-published: true
-title: ""
+title: "New Site Structure Plans"
 layout: article
 category: article
 icon: article
-colour: "#222222"
 excerpt: "I'm currently in the process of shifting things over from old to new with regards to my personal site"
 ---
 
