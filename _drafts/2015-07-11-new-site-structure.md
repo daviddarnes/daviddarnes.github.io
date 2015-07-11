@@ -16,7 +16,7 @@ My main website sits on [david.darn.es](http://david.darn.es) (that's the WordPr
 
 ## darn.es
 
-My top level domain [darn.es](http://darn.es) just redirects to my WordPress site. I want to change this. I want it to be a single page providing just the essentials about myself, including links to the things I mainly work on. A bit like an online business card. Which means I can use GitHub Pages for this site as well. The only thing I can't do on GitHub Pages is my custom background.
+My naked domain [darn.es](http://darn.es) just redirects to my WordPress site. I want to change this. I want it to be a single page providing just the essentials about myself, including links to the things I mainly work on. A bit like an online business card. Which means I can use GitHub Pages for this site as well. The only thing I can't do on GitHub Pages is my custom background.
 
 If you hadn't noticed, on [my current main site](http://darn.es) the background is actually a blurred image of my latest [Instagram photo](http://instagram.com/daviddarnes). I **really** like it, @createdbypete and @studioromeo helped me create it a few years ago. It's just a super basic WordPress plugin, which means it runs on PHP.
 
@@ -31,4 +31,6 @@ Here's a sitemap-esque list:
 
 ## And that's it
 
-Simple enough right? Ha, you joker. At least my design skills can be focused on my "calling card" site rather than this site. This subdomain site will probably focus on personal articles, a full portfolio of projects and experiments, who I am and a way to get in touch.
+Simple enough right? Ha, you joker. At least my design skills can be focused on my "calling card" site rather than this site. This subdomain site will probably focus on personal articles, a full portfolio of projects and experiments, who I am and a way to get in touch. Thanks for reading, especially if you got this far. Hopefully I'll actually complete what I've mentioned above, time is truly my only challenge.
+
+Cheers, Dave
