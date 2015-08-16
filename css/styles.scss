@@ -58,11 +58,11 @@ h2, h3, h4 {
 	color: lighten($text-colour, 10%);
 }
 
-p {
+p, ul, ol, .video {
 	margin-bottom: 1.6em;
 }
+
 ul, ol {
-	margin-bottom: 1.6em;
 	padding-left: 1.3em;
 	p {
 		margin-bottom: 0;
@@ -243,6 +243,21 @@ svg {
 	0%	{ stroke-dashoffset: 122; }
 	25%	{ stroke-dashoffset: 122; }
 	100%	{ stroke-dashoffset: 0; }
+}
+
+
+// Embeds
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 
