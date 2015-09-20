@@ -1,23 +1,8 @@
 ---
 title: Tracking Time
-author: David Darnes
-excerpt: "Not long ago I asked my Twitter followers what they suggest for a single person to track their time with. I was worried it might open up a can of worms, but I got an excellent response. Here's what people suggested…"
-layout: post
-permalink: /productivity/tracking-time/
-background_colour_img:
-  - '#644d53 url(http://david.darn.es/wp-content/uploads/2012/09/time-tracking-bg.jpg)'
-subtitle:
-  - "Options for tracking your time when you're designin' solo"
-categories:
-  - Productivity
-tags:
-  - administration
-  - basecamp
-  - freeagent
-  - organisation
-  - planning
-  - time
-  - time tracking
+layout: article
+redirect_from: /productivity/tracking-time/
+excerpt: "Options for tracking your time when you're designin' solo"
 ---
 Not long ago I asked my Twitter followers what they suggest for a single person to track their time with. I was worried it might open up a can of worms, but I got an excellent response. Here&#8217;s what people suggested:
 

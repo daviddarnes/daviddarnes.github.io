@@ -1,22 +1,8 @@
 ---
 title: 'Web Dev Conference 2012: Look Back'
-author: David Darnes
-excerpt: "A week or so ago I attended WDC 2012 (Web Development Conference 2012), which was my first web design & development conference. And yes, I did put design, and you'll see why in the following…"
-layout: post
-permalink: /conferences/web-dev-conference-2012/
-background_colour_img:
-  - '#050505 url(http://david.darn.es/wp-content/uploads/2012/11/clifton-bg.jpg)'
-subtitle:
-  - An overview of what I gained from my visit to WDC2012
-categories:
-  - Conferences
-tags:
-  - bristol
-  - conference
-  - designers
-  - developers
-  - speakers
-  - web development
+layout: article
+redirect_from: /conferences/web-dev-conference-2012/
+excerpt: "An overview of what I gained from my visit to WDC2012"
 ---
 <img class="size-full wp-image-602 alignright" title="lanyard" src="http://david.darn.es/wp-content/uploads/2012/11/lanyard.jpg" alt="" width="400" height="843" />A week or so ago I attended [WDC 2012][1] (Web Development Conference 2012), which was my first web design & development conference. And yes, I did put design, and you&#8217;ll see why in the following. At the conference we were treated to a number of speakers. Without blabbing on too much, I&#8217;d like to explain who they are, what they do, and what I thought about them:
 

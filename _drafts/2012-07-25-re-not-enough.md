@@ -1,27 +1,8 @@
 ---
 title: 'Re: Not Enough In The Day'
-author: David Darnes
-excerpt: "Recently I wrote an article about what my daily routine is and asked others to let me know what they do and what their thoughts were. Firstly I'd like to thank everyone who replied. I received a few tweets, couple of Google+ messages and even an email. All of them were a nice combination of casual, informative and comical in nature."
-layout: post
-permalink: /methods/re-not-enough/
-background_colour_img:
-  - '#4b1218 url(http://david.darn.es/wp-content/uploads/2012/07/night-lights.jpg)'
-subtitle:
-  - Feedback on the subject of my daily routine
-categories:
-  - Methods
-tags:
-  - break
-  - freelance
-  - play
-  - relax
-  - rest
-  - schedule
-  - sleep
-  - sleeping
-  - tired
-  - work
-  - work life
+layout: article
+redirect_from: /methods/re-not-enough/
+excerpt: "Feedback on the subject of my daily routine"
 ---
 [Recently I wrote an article][1] about what my daily routine is and asked others to let me know what they do and what their thoughts were. Firstly I&#8217;d like to thank everyone who replied. I received a few [tweets][2], couple of [Google+][3] messages and even an email. All of them were a nice combination of casual, informative and comical in nature.
 
@@ -46,7 +27,7 @@ My excuse for not doing something similar? I would say that I have to travel fur
 This leads me onto a few tweets between myself and another web developer, [Dan Smith][9]. Dan simply said &#8220;you work too much&#8221;, which I took partly as a compliment but mostly as a relief. He also went onto say:
 
 > [Dan Smith][9] &#8211; <cite><a title="Dan Smith on Twitter" href="https://twitter.com/blistereduk">@blistereduk</a></cite>
-> 
+>
 > Its a whole different ballgame. Again when you get a house and stuff. Enjoy your time away from work. Lifes too short.
 
 Dan is either saying to appreciate I don&#8217;t have a house to look after, or that when I do get one I should enjoy the time away from work when I&#8217;m there. I prefer the later as I do want to find a place of my own, and I&#8217;d like to think it would be a &#8216;no work&#8217; space… most of the time.

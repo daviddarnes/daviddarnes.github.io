@@ -1,22 +1,8 @@
 ---
 title: Not Enough In The Day
-author: David Darnes
-excerpt: A normal weekday for me starts between 6:30am to 7:00am, depending on how much vigour I have. I then get ready, leave home and arrive at the Jigowatt studio at around 8:20am. I normally work until 5:30pm, maybe to 6:00pm depending on the workload.
-layout: post
-permalink: /methods/not-enough-in-the-day/
-background_colour_img:
-  - '#403822 url(http://david.darn.es/wp-content/uploads/2012/07/CNV00025.jpg)'
-subtitle:
-  - Fitting time to sleep in a normal working day
-categories:
-  - Methods
-tags:
-  - organising
-  - planning
-  - schedule
-  - sleep
-  - sleeping
-  - work life
+layout: article
+redirect_from: /methods/not-enough-in-the-day/
+excerpt: "Fitting time to sleep in a normal working day"
 ---
 My approach to writing articles is to remain very open minded in the subject matter. I have a great fear of saying &#8220;this is how it should be done&#8221; and then finding out its wrong or it can be done better. All I try to do is share my experience on the subject, and this one is no different. Anyway, I digress.
 

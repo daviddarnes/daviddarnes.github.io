@@ -1,39 +1,10 @@
 ---
 title: The Fools List To April 1st 2013
-author: David Darnes
-excerpt: "The internet has been abundant with trolls today. What I've attempted to do is amalgamate them all into singular list for you to chuckle, confuse and disappoint yourself with, enjoy."
-layout: post
-permalink: /humor/the-fools-list-to-april-1st-2013/
-background_colour_img:
-  - '#d5c5a8 url(http://david.darn.es/wp-content/uploads/2013/04/chrome-bg.jpg)'
-subtitle:
-  - A list of online jokes to celebrate April Fools Day
-categories:
-  - Humor
-tags:
-  - comedy
-  - deus ex
-  - farcry
-  - firebox
-  - fun
-  - funny
-  - google
-  - ifixit
-  - made by shape
-  - made by sheep
-  - minecraft
-  - mojang
-  - nettuts
-  - silly
-  - sony
-  - soundcloud
-  - sprint
-  - thinkgeek
-  - twitter
-  - twttr
-  - visual idiot
-  - youtube
+layout: article
+redirect_from: /humor/the-fools-list-to-april-1st-2013/
+excerpt: A list of online jokes to celebrate April Fools Day
 ---
+
 The internet has been abundant with trolls today. What I&#8217;ve attempted to do is amalgamate them all into singular list for you to chuckle, confuse and disappoint yourself with. Enjoy:
 
 ### Google

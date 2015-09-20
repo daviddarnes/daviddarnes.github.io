@@ -1,21 +1,8 @@
 ---
 title: 'I&#8217;m working for BaseKit in Bristol'
-author: David Darnes
-excerpt: After a couple of conversations, and a lot of trips along the M5, I now work for BaseKit in Bristol. I design and build custom templates for the BaseKit platform, and so far its awesome.
-layout: post
-permalink: /general/im-working-for-basekit-in-bristol/
-background_colour_img:
-  - '#4172c7 url(http://david.darn.es/wp-content/uploads/2014/01/basekit-bristol-bg.jpg)'
-subtitle:
-  - And it only took me 6 months to get here
-categories:
-  - General
-tags:
-  - basekit
-  - bristol
-  - designer
-  - templates
-  - websites
+layout: article
+redirect_from: /general/im-working-for-basekit-in-bristol/
+excerpt: And it only took me 6 months to get here
 ---
 Back in August I accepted a role as web designer & front end developer for [effect][1] in Leicester. Its a great studio which is working with some awesome brands. Despite the friendly team and the strong momentum of work we were doing, I didn&#8217;t feel like the role was right for me. I was looking to work on something that was closer to my interests and allowed me to feed my design hunger as well.
 

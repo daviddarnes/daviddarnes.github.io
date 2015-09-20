@@ -1,26 +1,10 @@
 ---
 title: My Tools Of The Trade
-author: David Darnes
-excerpt: "I thought I'd put together a list of the applications I use on a day to day basis. Whether that be at work doing client projects, or when I'm at home working on my own projects."
-layout: post
-permalink: /skills/my-tools-of-the-trade/
-background_colour_img:
-  - '#c56755 url(http://david.darn.es/wp-content/uploads/2013/03/tools-bg.jpg)'
-subtitle:
-  - What applications I use on a daily basis
-categories:
-  - Skills
-tags:
-  - applications
-  - apps
-  - coding
-  - design
-  - development
-  - knowledge
-  - languages
-  - skills
-  - tools
+layout: article
+redirect_from: /skills/my-tools-of-the-trade/
+excerpt: What applications I use on a daily basis
 ---
+
 I thought I&#8217;d put together a list of the applications I use on a day to day basis. Whether that be at work doing client projects, or when I&#8217;m at home working on my own projects. I&#8217;ve also given a short explanation of what I use them for:
 
 <img class="alignleft borderless size-thumbnail wp-image-688" alt="google-chrome" src="http://david.darn.es/wp-content/uploads/2013/03/google-chrome.png" width="150" height="150" />[Google Chrome:][1] Pretty obvious, but should be mentioned. Apart from actually running websites I&#8217;ve built, I also use it to interact with colleagues on [Basecamp][2] and track my studio time in [Freeagent][3]. Then there&#8217;s browsing websites for inspiration, or for learning purposes. Finally the most important element of chrome, the inspector. I use it solve bugs, and to figure out how other sites have achieved certain effects.
