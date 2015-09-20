@@ -1,27 +1,10 @@
 ---
 title: Just Get It Done
-author: David Darnes
-excerpt: |
-  We all suffer from it, "I'm my own worst client" we say. The scenario is that you've set yourself the task of creating an app, plugin, blog, android or (in my case) personal portfolio website. And thats great, working on your own work is always fun. However it can be far too easy to get stuck in a rut.
-layout: post
-permalink: /methods/just-get-it-done/
-subtitle:
-  - Dodging the rut we make for ourselves
-background_colour_img:
-  - url(http://david.darn.es/wp-content/uploads/2012/06/get-it-done-bg.jpg)
-categories:
-  - Methods
-tags:
-  - client
-  - design
-  - freelance
-  - help
-  - launch
-  - own
-  - procrastination
-  - scared
-  - worst
+layout: article
+redirect_from: /methods/just-get-it-done/
+excerpt: "Dodging the rut we make for ourselves"
 ---
+
 We all suffer from it, &#8220;[I&#8217;m my own worst client][1]&#8221; we say. The scenario is that you&#8217;ve set yourself the task of creating an app, plugin, blog, android or (in my case) personal portfolio website. And thats great, working on your own work is always fun. However it can be far too easy to get stuck in a rut.
 
 It can happen at any point in the project, but most of the time its the final sprint to the finish that (I think) people decide to start walking very slowly. It happened to me on this very website. Every time someone asked &#8220;Is it ready yet?&#8221; my reply would start with something along the lines of &#8220;[Well I just need to…][2]&#8221; followed by some ridiculous detail that might not even need doing.
