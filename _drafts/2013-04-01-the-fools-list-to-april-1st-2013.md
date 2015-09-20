@@ -5,6 +5,8 @@ redirect_from: /humor/the-fools-list-to-april-1st-2013/
 excerpt: A list of online jokes to celebrate April Fools Day
 ---
 
+# The Fools List To April 1st 2013
+
 The internet has been abundant with trolls today. What I&#8217;ve attempted to do is amalgamate them all into singular list for you to chuckle, confuse and disappoint yourself with. Enjoy:
 
 ### Google

@@ -5,6 +5,8 @@ redirect_from: /methods/just-get-it-done/
 excerpt: "Dodging the rut we make for ourselves"
 ---
 
+# Just Get It Done
+
 We all suffer from it, &#8220;[I&#8217;m my own worst client][1]&#8221; we say. The scenario is that you&#8217;ve set yourself the task of creating an app, plugin, blog, android or (in my case) personal portfolio website. And thats great, working on your own work is always fun. However it can be far too easy to get stuck in a rut.
 
 It can happen at any point in the project, but most of the time its the final sprint to the finish that (I think) people decide to start walking very slowly. It happened to me on this very website. Every time someone asked &#8220;Is it ready yet?&#8221; my reply would start with something along the lines of &#8220;[Well I just need to…][2]&#8221; followed by some ridiculous detail that might not even need doing.

@@ -4,6 +4,9 @@ layout: article
 redirect_from: /humor/website-decay/
 excerpt: "Your website might fall apart"
 ---
+
+# Website "Decay"
+
 Not sure if you know this, but your website might fall apart. Thats right, if you don&#8217;t keep it maintained and serviced it might not be there one day. This issue can only be described as &#8220;website decay&#8221; in which the site in question could simply fall apart at any moment.
 
 I&#8217;ve recently had some trouble trying to prevent such a problem but I think I&#8217;ve managed to escape it with minor issues. However I have lost some elements in the process, a div here and there. So let this be a warning to anyone neglecting their own site, keep it in check and give it a good service every so often!

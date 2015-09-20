@@ -4,6 +4,9 @@ layout: article
 redirect_from: /conferences/web-dev-conference-2012/
 excerpt: "An overview of what I gained from my visit to WDC2012"
 ---
+
+# Web Dev Conference 2012: Look Back
+
 <img class="size-full wp-image-602 alignright" title="lanyard" src="http://david.darn.es/wp-content/uploads/2012/11/lanyard.jpg" alt="" width="400" height="843" />A week or so ago I attended [WDC 2012][1] (Web Development Conference 2012), which was my first web design & development conference. And yes, I did put design, and you&#8217;ll see why in the following. At the conference we were treated to a number of speakers. Without blabbing on too much, I&#8217;d like to explain who they are, what they do, and what I thought about them:
 
 ### First speaker: [David Burton][2]

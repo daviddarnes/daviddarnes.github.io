@@ -4,6 +4,9 @@ layout: article
 redirect_from: /methods/not-enough-in-the-day/
 excerpt: "Fitting time to sleep in a normal working day"
 ---
+
+# Not Enough In The Day
+
 My approach to writing articles is to remain very open minded in the subject matter. I have a great fear of saying &#8220;this is how it should be done&#8221; and then finding out its wrong or it can be done better. All I try to do is share my experience on the subject, and this one is no different. Anyway, I digress.
 
 A normal weekday for me starts between 6:30am to 7:00am, depending on how much vigour I have. I then get ready, leave home and arrive at the [Jigowatt studio][1] at around 8:20am. I normally work until 5:30pm, maybe to 6:00pm depending on the workload. I then go home and continue to lookup stuff online, check twitter & alike and work on web stuff until around 11:30pm. So by using crude mathematics I&#8217;ve worked out that I&#8217;m working (with breaks) for about 16+ hours and sleeping for around 7 hours.

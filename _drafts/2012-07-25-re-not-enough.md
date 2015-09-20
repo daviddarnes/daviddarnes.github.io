@@ -4,6 +4,9 @@ layout: article
 redirect_from: /methods/re-not-enough/
 excerpt: "Feedback on the subject of my daily routine"
 ---
+
+# Re: Not Enough In The Day
+
 [Recently I wrote an article][1] about what my daily routine is and asked others to let me know what they do and what their thoughts were. Firstly I&#8217;d like to thank everyone who replied. I received a few [tweets][2], couple of [Google+][3] messages and even an email. All of them were a nice combination of casual, informative and comical in nature.
 
 I&#8217;d like to kick off with an email from college friend and web developer [Benjamin Reid][4], who emailed me with a very detailed schedule of his average weekday:
