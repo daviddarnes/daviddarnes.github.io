@@ -3,6 +3,7 @@ title: Oi, GitHub.io
 layout: article
 category: article
 excerpt: Switching from WordPress to GitHub Pages
+redirect_from: /website/hi-world/
 ---
 
 # Oi, GitHub.io
