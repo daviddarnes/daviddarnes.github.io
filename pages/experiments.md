@@ -7,4 +7,4 @@ permalink: /experiments/
 
 # Experiments
 
-In the process of being transferred from my [current site](http://david.darn.es/experiments/).
+A few of my open source projects, you can find these and more [on GitHub](https://github.com/daviddarnes?tab=repositories).
