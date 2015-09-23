@@ -3,6 +3,7 @@ layout: default
 title: About
 excerpt: "I'm a Web Designer & Developer"
 permalink: /about/
+redirect_from: /profile/
 ---
 
 # Hi, I'm Dave
