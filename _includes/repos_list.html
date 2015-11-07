@@ -8,7 +8,7 @@
 				{% else %}
 				
 					{% assign icon = 'experiment' %}
-					{% assign name = repo.name | replace: '-', ' ' | replace: 'css', 'CSS' | replace: 'svg', 'SVG' %}
+					{% assign name = repo.name | replace: '-', ' ' | capitalize | replace: 'Css', 'CSS' | replace: 'Svg', 'SVG' %}
 	
 					<li class="item  section__item">
 						<article class="article  article--repo  section__article">
@@ -22,7 +22,7 @@
 							<header class="header  header--article">
 								<h2 class="title">
 									<a href="{% if repo.homepage %}{{ repo.homepage }}{% else %}{{ repo.html_url }}{% endif %}" title="{{ repo.name }}">
-										{% if name contains '.' %}{{ name }}{% else %}{{ name | capitalize }}{% endif %}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>
+										{% if repo.name contains '.' %}{{ repo.name }}{% else %}{{ name }}{% endif %}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>
 									</a>
 								</h2>
 	
