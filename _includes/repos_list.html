@@ -20,7 +20,7 @@
 							<header class="header  header--article">
 								<h2 class="title">
 									<a href="{% if repo.homepage %}{{ repo.homepage }}{% else %}{{ repo.html_url }}{% endif %}" title="{{ repo.name }}">
-										{{ repo.name }}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>
+										{{ repo.name | replace: '-', ' ' | capitalize }}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>
 									</a>
 								</h2>
 	
