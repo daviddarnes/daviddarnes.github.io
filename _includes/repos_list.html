@@ -4,7 +4,8 @@
 		<ul class="list  list--unstyled">
 
 			{% for repo in site.github.public_repositories limit:include.limit %}
-				{% if repo.has_issues == true %}
+				{% if repo.has_issues == false or repo.name contains 'darn' %}
+				{% else %}
 					{% assign icon = 'experiment' %}
 	
 					<li class="item  section__item">
