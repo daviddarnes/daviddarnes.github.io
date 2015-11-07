@@ -5,8 +5,6 @@
 
 			{% for repo in site.github.public_repositories limit:include.limit %}
 
-			  {% assign link = repo.repository_url %}
-
 				{% assign icon = 'experiment' %}
 
 				<li class="item  section__item">
@@ -20,7 +18,7 @@
 
 						<header class="header  header--article">
 							<h2 class="title">
-								<a href="{{ link }}" title="{{ repo.name }}">
+								<a href="{{ repo.repository_url }}" title="{{ repo.name }}">
 									{{ repo.name }}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>
 								</a>
 							</h2>
