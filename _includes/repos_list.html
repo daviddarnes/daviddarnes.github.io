@@ -4,30 +4,31 @@
 		<ul class="list  list--unstyled">
 
 			{% for repo in site.github.public_repositories limit:include.limit %}
-
-				{% assign icon = 'experiment' %}
-
-				<li class="item  section__item">
-					<article class="article  article--repo  section__article">
-
-						<a class="link  link--icon" href="{{ link }}" title="{{ repo.name }}">
-							<svg class="icon  icon--article">
-								<use class="outline__fade" xlink:href="#{{ icon }}"></use>
-							</svg>
-						</a>
-
-						<header class="header  header--article">
-							<h2 class="title">
-								<a href="{{ repo.html_url }}" title="{{ repo.name }}">
-									{{ repo.name }}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>
-								</a>
-							</h2>
-
-							<p class="excerpt">{{ repo.description }}</p>
-						</header>
-
-					</article>
-				</li>
+				{% if repo.has_issues == true %}
+					{% assign icon = 'experiment' %}
+	
+					<li class="item  section__item">
+						<article class="article  article--repo  section__article">
+	
+							<a class="link  link--icon" href="{{ link }}" title="{{ repo.name }}">
+								<svg class="icon  icon--article">
+									<use class="outline__fade" xlink:href="#{{ icon }}"></use>
+								</svg>
+							</a>
+	
+							<header class="header  header--article">
+								<h2 class="title">
+									<a href="{% if repo.homepage %}{{ repo.homepage }}{% else %}{{ repo.html_url }}{% endif %}" title="{{ repo.name }}">
+										{{ repo.name }}<svg class="icon  icon--link"><use xlink:href="#link"></use></svg>
+									</a>
+								</h2>
+	
+								<p class="excerpt">{{ repo.description }}</p>
+							</header>
+	
+						</article>
+					</li>
+				{% endif %}
 			{% endfor %}
 
 		</ul>
