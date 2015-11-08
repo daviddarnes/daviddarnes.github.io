@@ -18,16 +18,16 @@ After the design was finalised I started the build process. Because it was such 
 
 ## What's next?
 
-The next steps are to sort out my main site (david.darn.es) and my github site (daviddarnes.github.io). I've had a slight change of mind with these. I've seen many designers, and people who generally write alot, have seperate blogs for their writing. Also github.io sites are mainly used for listing open source projects, it's kinda the whole point of [GitHub Pages](https://pages.github.com/).
+The next steps are to sort out my main site ([david.darn.es](http://david.darn.es)) and my github site ([daviddarnes.github.io](http://daviddarnes.github.io)). I've had a slight change of mind with these. I've seen many designers, and people who generally write alot, have seperate blogs for their writing. Also github.io sites are mainly used for listing open source projects, it's kinda the whole point of [GitHub Pages](https://pages.github.com/).
 
-So after a little consideration I've come a conclusion on what should be going where. david.darn.es should be my blog, I mean I do write quite a bit and for several different websites. Having a single place to list my writing work would be a good idea. Sure, it does seem like I'm diluting my web content but it's no different than having a blog subdomain.
+So after a little consideration I've come a conclusion on what should be going where. [david.darn.es](http://david.darn.es) should be my blog, I mean I do write quite a bit and for several different websites. Having a single place to list my writing work would be a good idea. Sure, it does seem like I'm diluting my web content but it's no different than having a blog subdomain.
 
 ## Site structure v2
 
 Here's a revised version of my site structure list:
 
 - [darn.es](https://darn.es): My single page portfolio site (just a list of web projects I've worked on)
-  - [david.darn.es](http://david.darn.es): My blog listing technical, personal and external articles I've written (the sense of a "blogroll")
+  - [david.darn.es](http://david.darn.es): My blog listing technical, personal and external articles I've written (the ture sense of a "blogroll")
   - [daviddarnes.github.io](http://daviddarnes.github.io): My experiments hub, Listing all my open source projects from GitHub
 
 Enough talking, let's get on with it.
