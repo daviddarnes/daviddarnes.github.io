@@ -4,7 +4,6 @@ layout: article
 category: article
 icon: article
 excerpt: "The first step to reorganising my presonal sites"
-published: false
 ---
 
 # New Site Structure: Phase One Complete
@@ -13,11 +12,9 @@ When I say phase one I mean [darn.es](https://darn.es/), and when I say new site
 
 ## The design & development
 
-I'm really pleased how this project went, to me it was like a perfect personal project process. I designed it using [Sketch](http://bohemiancoding.com/sketch/) and then uploaded versions to my dribbble account. I got a lot of good feedback from the community, made a couple of rebounds and fell upon [a final design](https://dribbble.com/shots/2219504-darn-es-Revision-2-Design). I'm very grateful for the feedback, so thank you to them.
+I'm really pleased how this project went, to me it was like a perfect personal project process. I designed it using [Sketch](http://bohemiancoding.com/sketch/) and then uploaded versions to my dribbble account. I got a lot of good feedback from the community, made a couple of rebounds and fell upon [a final design](https://dribbble.com/shots/2219504-darn-es-Revision-2-Design). I also managed to get some [good feedback from Designer News](https://www.designernews.co/stories/56374-show-dn-darnes). I'm very grateful for the feedback, so thank you to them.
 
-After the design was finalised I started the build process. Because it was such a simple design I decided to try and build it entirely in the GitHub.com interface, you can find out how it went in an article I wrote for Tuts+.
-
-I also managed to get some [good feedback from Designer News](https://www.designernews.co/stories/56374-show-dn-darnes).
+After the design was finalised I started the build process. Because it was such a simple design I decided to try and build it entirely in the GitHub.com interface. I'm hoping to write up how it went in another article.
 
 ## What's next?
 
@@ -29,6 +26,10 @@ So after a little consideration I've come a conclusion on what should be going w
 
 Here's a revised version of my site structure list:
 
-- darn.es: My single page portfolio site (just a list of web projects I've worked on)
-  - david.darn.es: My blog listing technical, personal and external articles I've written (the sense of a "blogroll")
-  - daviddarnes.github.io: My experiments hub, Listing all my open source projects from GitHub
+- [darn.es](https://darn.es): My single page portfolio site (just a list of web projects I've worked on)
+  - [david.darn.es](http://david.darn.es): My blog listing technical, personal and external articles I've written (the sense of a "blogroll")
+  - [daviddarnes.github.io](http://daviddarnes.github.io): My experiments hub, Listing all my open source projects from GitHub
+
+Enough talking, let's get on with it.
+
+Cheers, Dave
