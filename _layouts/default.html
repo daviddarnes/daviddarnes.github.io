@@ -1,26 +1,16 @@
 <!DOCTYPE html>
-<head>
-	{% include meta.html %}
-	<link href="/css/styles.css" media="all" rel="stylesheet">
+<html>
+	<head>
+		{% include meta.html %}
+		<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+		<link href="/css/styles.css" media="all" rel="stylesheet">
 
-	{% include favicons.html %}
-</head>
-<body>
-	{% include icons.svg %}
-
-	{% include sidebar.html %}
-
-	<main class="main" role="main">
-
-		{% include header.html %}
+		{% include favicons.html %}
+	</head>
+	<body>
+		{% include icons.svg %}
 
 		{{ content }}
 
-		{% include footer.html %}
-
-	</main>
-
-	{% include scripts.html %}
-
-</body>
-
+	</body>
+</html>

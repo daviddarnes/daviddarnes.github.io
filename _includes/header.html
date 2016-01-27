@@ -1,7 +1,24 @@
-<header class="header  header--main">
 
-	<p class="line  line--inline"><strong>{{ site.title }}</strong> — <span class="profession">{{ site.profession }}...</span></p>
+<header class="header">
 
-	{% include networks_nav.html %}
+	<a class="link  link--circle" href="{% if page.url == "/index.html" %}/{% else %}{{ page.url }}{% endif %}" title="{{ page.title }}">
+
+		{% if page.icon %}
+			<svg class="icon  icon--site  icon--large">
+				<use xlink:href="#{{ page.icon }}" fill="{{ page.colour }}"></use>
+			</svg>
+		{% else %}
+			<img class="avatar" src="{{ site.avatar }}" alt="{{ site.title }}"/>
+		{% endif %}
+
+	</a>
+	
+	<div class="content  content--header">
+	
+		<h1>{{ page.title }}</h1>
+	
+		<h2>{{ page.excerpt }}</h2>
+	
+	</div>
 
 </header>
