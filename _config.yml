@@ -6,10 +6,12 @@ exclude:
 
 # Gems
 gems:
-- github-pages
+- jekyll-github-metadata
 - jekyll-sitemap
 - jekyll-mentions
 - jemoji
+
+repository: "daviddarnes/daviddarnes.github.io"
 
 jekyll-mentions: https://twitter.com
 
