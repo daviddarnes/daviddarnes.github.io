@@ -3,13 +3,13 @@ layout: none
 ---
 
 // Variables
-$color--background: #ffffff;
-$color--link: #83C001;
-$color--heading: #5D5D5D;
-$color--subheading: #9D9D9D;
-$color--paragraph: #3D3D3D;
-$color--keyline: #EDEDED;
-$color--footnote: #ADADAD;
+$color--background: #1f1f1f;
+$color--link: #0077CC;
+$color--heading: #D5D5D5;
+$color--subheading: #D9D9D9;
+$color--paragraph: #D3D3D3;
+$color--keyline: darken($color--background, 10%);
+$color--footnote: #DADADA;
 $width--keyline: .5rem;
 
 // Globals & resets
@@ -24,6 +24,7 @@ html {
 
 body {
     min-height: 100%;
+    background: $color--background;
 }
 
 * {
@@ -113,6 +114,7 @@ img {
 .avatar {
     width: 4.5rem;
     height: 4.5rem;
+    -webkit-filter: saturate(0%);
     @media (max-width: 500px) {
         width: 3.5rem;
         height: 3.5rem;
@@ -153,7 +155,7 @@ img {
     &--sites {
         flex: 1 0 auto;
     }
-    
+
     // Opacity hover transition
     .content,
     .icon {
@@ -195,7 +197,7 @@ img {
         top: 0;
         left: 0;
         border: $width--keyline solid $color--keyline;
-        background: $color--background;
+        background: darken($color--background, 5%);
         border-radius: 100%;
         overflow: hidden;
         margin: 0 .25rem .25rem;
@@ -223,7 +225,7 @@ img {
 
 // Typography
 html {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.6rem;
@@ -239,15 +241,17 @@ h1, h2, h3, a {
 }
 
 h1 {
-    font-size: 2.4rem;
-    margin-bottom: .85rem;
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+    margin-bottom: .45rem;
     color: $color--heading;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
     margin-bottom: .5rem;
-    color: $color--subheading; 
+    color: $color--subheading;
 }
 
 h3 {
@@ -288,4 +292,3 @@ small {
     font-weight: 400;
     color: $color--footnote;
 }
-
