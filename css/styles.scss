@@ -5,6 +5,7 @@ layout: none
 // Variables
 $color--background: #1f1f1f;
 $color--link: #1A9FFF;
+$color--icon: #1A9FFF;
 $color--heading: #D5D5D5;
 $color--subheading: #D9D9D9;
 $color--paragraph: #D3D3D3;
@@ -123,6 +124,7 @@ img {
 
 // Icons
 .icon {
+	fill: $color--icon;
     &--network {
         width: 1.25rem;
         height: 1.25rem;
