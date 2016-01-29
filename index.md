@@ -1,9 +1,8 @@
 ---
 layout: front
-title: Latest Stuff
-excerpt: "Articles, projects and experiments"
+title: "Dave's Open Source Stuff"
+excerpt: "Experiments, tools and other projects"
+icon: experiment
 ---
 
-# Latest Stuff
-
-Articles, projects and experiments
+I also [write articles](http://daviddarnes.github.io/articles/) and [create websites](https://darn.es/).

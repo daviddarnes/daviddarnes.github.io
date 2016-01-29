@@ -2,43 +2,28 @@
 exclude:
 - README.md
 - LICENSE
-- bower_components
-- bower.json
-- gulpfile.js
-- node_modules
-- package.json
 - CNAME
-
-# SCSS
-sass:
-    style: :compressed
-
-# Permalinks
-permalink: /articles/:title/
-
-# Portfolio and experiments collections
-collections:
-  projects:
-    output: true
-    permalink: /projects/:title/
-  experiments:
-    output: true
-    permalink: /experiments/:title/
 
 # Gems
 gems:
+- jekyll-github-metadata
 - jekyll-sitemap
-- jekyll-redirect-from
 - jekyll-mentions
 - jemoji
+
+repository: "daviddarnes/daviddarnes.github.io"
 
 jekyll-mentions: https://twitter.com
 
 # Site info
 url: http://daviddarnes.github.io
 title: "David Darnes"
-profession: "Web Designer & Front-end Developer"
+description: "Experiments, tools and other projects"
+avatar: "https://avatars1.githubusercontent.com/u/1177460?s=144"
 
-meta:
-  twitter: "@DavidDarnes"
-  facebook: daviddarnes
+# Networks
+networks:
+  Twitter: http://twitter.com/daviddarnes
+  GitHub: http://github.com/daviddarnes
+  CodePen: http://codepen.io/daviddarnes
+  Dribbble: https://dribbble.com/daviddarnes

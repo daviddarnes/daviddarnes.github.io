@@ -1,0 +1,51 @@
+{% if site.github.public_repositories %}
+	<div class="content">
+		<h3>Open Source Projects</h3>
+	</div>
+	<ul class="list  list--sites" id="sites">
+		{% for item in site.github.public_repositories %}
+
+			{% unless item.has_issues == false or item.name contains 'darn' %}
+
+
+			{% if item.homepage contains "anchorthemes.com" %}
+				{% assign icon = "anchor" %}
+				{% assign colour = "#e36500" %}
+			{% elsif item.homepage contains "github.io" %}
+				{% assign icon = "github" %}
+				{% assign colour = "#4078c0" %}
+			{% elsif item.name contains "." %}
+				{% assign icon = "link" %}
+				{% assign colour = "#83C001" %}
+			{% else %}
+				{% assign icon = "experiment" %}
+				{% assign colour = "#DA9C00" %}
+			{% endif %}
+
+			{% if item.name contains "." %}
+				{% assign name = item.name %}
+			{% else %}
+				{% assign name = item.name | replace: '-', ' ' | capitalize | replace: 'Css', 'CSS' | replace: 'Svg', 'SVG' %}
+			{% endif %}
+
+			<li class="item  item--site">
+				<a class="link  link--circle  link--site" href="{{ item.homepage }}" title="{{ name }}">
+					<svg class="icon  icon--site">
+						<use xlink:href="#{{ icon }}" fill="{{ colour }}"></use>
+					</svg>
+				</a>
+
+				<div class="content  content--site  content--{{ name | slugify }}">
+					<style scoped>.content--{{ name | slugify }} a { color: {{ colour }}; border-color: {{ colour }}; }</style>
+
+					<h2>
+						<a href="{{ item.homepage }}" title="{{ name }}">{{ name }}</a>
+					</h2>
+
+					{{ item.description | markdownify }}
+				</div>
+			</li>
+			{% endunless %}
+		{% endfor %}
+	</ul>
+{% endif %}
