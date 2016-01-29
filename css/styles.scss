@@ -200,6 +200,7 @@ img {
         left: 0;
         border: $width--keyline solid $color--keyline;
         background: darken($color--background, 5%);
+        box-shadow: 0 0 1rem .4rem $color--background;
         border-radius: 100%;
         overflow: hidden;
         margin: 0 .25rem .25rem;
