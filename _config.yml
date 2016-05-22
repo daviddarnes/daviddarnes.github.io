@@ -9,6 +9,9 @@ gems:
 - jekyll-github-metadata
 - jekyll-sitemap
 - jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
 - jemoji
 
 repository: "daviddarnes/daviddarnes.github.io"
