@@ -18,15 +18,22 @@ repository: "daviddarnes/daviddarnes.github.io"
 
 jekyll-mentions: https://twitter.com
 
+# SCSS
+sass:
+  style: :compressed
+  
 # Site info
 url: http://daviddarnes.github.io
 title: "David Darnes"
 description: "Experiments, tools and other projects"
-avatar: "https://avatars1.githubusercontent.com/u/1177460?s=144"
+logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
-# Networks
-networks:
-  Twitter: http://twitter.com/daviddarnes
-  GitHub: http://github.com/daviddarnes
-  CodePen: http://codepen.io/daviddarnes
-  Dribbble: https://dribbble.com/daviddarnes
+twitter:
+  username: daviddarnes
+
+author:
+  twitter: daviddarnes
+  
+seo:
+  author: "David Darnes"
+
