@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		{% include meta.html %}
+		<!-- General meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		{% if page.indexing == false %}
+			<meta name="robots" content="noindex">
+		{% endif %}
+		
+		{% if page.title contains site.title %}
+			<title>{{ page.title }} - {{ page.excerpt }}</title>
+			{% seo title=false %}
+		{% else %}
+			{% seo %}
+		{% endif %}
+		
 		<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
 		<link href="/css/styles.css" media="all" rel="stylesheet">
 
