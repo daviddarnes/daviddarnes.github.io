@@ -29,8 +29,9 @@
 			{% endif %}
 
 			<li class="item  item--site">
-				<a class="link  link--circle  link--site" href="{{ item.homepage }}" title="{{ name }}">
-					<svg class="icon  icon--site">
+				<a class="link  link--circle  link--site" href="{{ item.homepage }}" title="{{ name }}" role="presentation">
+					<svg class="icon  icon--site" role="img" aria-label="{{ item.title }} icon">
+						<title>{{ icon }}</title>
 						<use xlink:href="#{{ icon }}" fill="{{ colour }}"></use>
 					</svg>
 				</a>
