@@ -23,8 +23,9 @@ sass:
   style: :compressed
   
 # Site info
-url: http://daviddarnes.github.io
+url: https://daviddarnes.github.io
 title: "Dave's Open Source Stuff"
+name: "David Darnes"
 description: "Experiments, tools and other projects"
 logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
