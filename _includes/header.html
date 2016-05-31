@@ -1,10 +1,11 @@
 
 <header class="header">
 
-	<a class="link  link--circle" href="{% if page.url == "/index.html" %}/{% else %}{{ page.url }}{% endif %}" title="{{ page.title }}">
+	<a class="link  link--circle" href="{% if page.url == "/index.html" %}/{% else %}{{ page.url }}{% endif %}" title="{{ page.title }}" role="presentation">
 
 		{% if page.icon %}
-			<svg class="icon  icon--site  icon--large">
+			<svg class="icon  icon--site  icon--large" role="img" aria-label="{{ page.title }} icon">
+				<title>{{ page.icon }}</title>
 				<use xlink:href="#{{ page.icon }}" fill="{{ page.colour }}"></use>
 			</svg>
 		{% else %}
