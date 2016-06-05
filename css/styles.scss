@@ -21,6 +21,14 @@ html, body {
 
 html {
     height: 100%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6rem;
+    color: $color--paragraph;
+    @media (max-width: 500px) {
+        line-height: 1.75rem;
+    }
 }
 
 body {
@@ -30,6 +38,82 @@ body {
 
 * {
     box-sizing: border-box;
+}
+
+// Typography
+h1, h2, h3, a {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+    margin-bottom: .45rem;
+    color: $color--heading;
+}
+
+h2 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+    color: $color--subheading;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+    color: $color--footnote;
+    font-weight: 300;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: $color--link;
+    text-decoration: none;
+    position: relative;
+    border-color: $color--link;
+    white-space: nowrap;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        border-bottom: 1px solid $color--link;
+        border-color: inherit;
+        opacity: 0.25;
+        transition: .2s;
+    }
+    &:hover:after {
+        opacity: 0.75;
+    }
+}
+
+small {
+    font-size: .85rem;
+    font-weight: 400;
+    color: $color--footnote;
+}
+
+// Graphics
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.avatar {
+    width: 4.5rem;
+    height: 4.5rem;
+    -webkit-filter: saturate(0%);
+    @media (max-width: 500px) {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 }
 
 // Container
@@ -103,23 +187,6 @@ body {
     &--site {
         margin-bottom: 3rem;
         padding-top: .35rem;
-    }
-}
-
-// Graphics
-img {
-    max-width: 100%;
-    height: auto;
-    border: 0;
-}
-
-.avatar {
-    width: 4.5rem;
-    height: 4.5rem;
-    -webkit-filter: saturate(0%);
-    @media (max-width: 500px) {
-        width: 3.5rem;
-        height: 3.5rem;
     }
 }
 
@@ -225,74 +292,4 @@ img {
     0%  { opacity: 0; transform: translate(0, -20px); }
     25% { opacity: 0; transform: translate(0, -20px); }
     100%{ opacity: 1; transform: translate(0, 0); }
-}
-
-// Typography
-html {
-    font-family: 'Inconsolata', monospace;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.6rem;
-    color: $color--paragraph;
-    @media (max-width: 500px) {
-        line-height: 1.75rem;
-    }
-}
-
-h1, h2, h3, a {
-    margin-top: 0;
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 2.1rem;
-    line-height: 2.1rem;
-    margin-bottom: .45rem;
-    color: $color--heading;
-}
-
-h2 {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    margin-bottom: .5rem;
-    color: $color--subheading;
-}
-
-h3 {
-    font-size: 1.2rem;
-    margin-bottom: .7rem;
-    color: $color--footnote;
-    font-weight: 300;
-}
-
-p {
-    margin-top: 0;
-}
-
-a {
-    color: $color--link;
-    text-decoration: none;
-    position: relative;
-    border-color: $color--link;
-    white-space: nowrap;
-    &:after {
-        content: "";
-        position: absolute;
-        bottom: -2px;
-        left: 0;
-        right: 0;
-        border-bottom: 1px solid $color--link;
-        border-color: inherit;
-        opacity: 0.25;
-        transition: .2s;
-    }
-    &:hover:after {
-        opacity: 0.75;
-    }
-}
-
-small {
-    font-size: .85rem;
-    font-weight: 400;
-    color: $color--footnote;
 }
