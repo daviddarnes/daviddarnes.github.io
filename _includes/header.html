@@ -1,4 +1,3 @@
-
 <header class="header">
 
 	<a class="link  link--circle" href="{% if page.url == "/index.html" %}/{% else %}{{ page.url }}{% endif %}" title="{{ page.title }}">
@@ -9,17 +8,15 @@
 				<use xlink:href="#{{ page.icon }}" fill="{{ page.colour }}"></use>
 			</svg>
 		{% else %}
-			<img class="avatar" src="{{ site.logo }}" alt="{{ site.title }}"/>
+			<img class="avatar" src="{{ site.logo | replace: "300", "72" }}" alt="{{ site.title }}" srcset="{{ site.logo | replace: "300", "72" }}  72w, {{ site.logo | replace: "300", "144" }} 144w" sizes="100vw">
 		{% endif %}
 
 	</a>
-	
+
 	<div class="content  content--header">
-	
+
 		<h1>{{ page.title }}</h1>
-	
-		<h2>{{ page.excerpt }}</h2>
-	
+
 	</div>
 
 </header>
