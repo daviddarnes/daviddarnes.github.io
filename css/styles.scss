@@ -100,8 +100,8 @@ small {
 }
 
 ::selection {
-  background: $color--paragraph;
-  color: lighten($color--background, 10%);
+  background: lighten($color--paragraph, 10%);
+  color: $color--background;
 }
 
 // Graphics
