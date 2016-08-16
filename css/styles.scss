@@ -99,6 +99,11 @@ small {
     color: $color--footnote;
 }
 
+::selection {
+  background: $color--paragraph;
+  color: lighten($color--background, 10%);
+}
+
 // Graphics
 img {
     max-width: 100%;
