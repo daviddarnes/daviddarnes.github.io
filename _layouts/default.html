@@ -8,12 +8,16 @@
 			<meta name="robots" content="noindex">
 		{% endif %}
 
-		{% if page.title contains site.title %}
-			<title>{{ page.title }} - {{ page.excerpt }}</title>
-			{% seo title=false %}
-		{% else %}
-			{% seo %}
-		{% endif %}
+		{% capture seo %}
+			{% if page.title contains site.title %}
+				<title>{{ page.title }} - {{ page.excerpt }}</title>
+				{% seo title=false %}
+			{% else %}
+				{% seo %}
+			{% endif %}
+		{% endcapture %}
+
+		{{ seo | replace: "summary_large_image", "summary" }}
 
 		{% include styles.html %}
 
