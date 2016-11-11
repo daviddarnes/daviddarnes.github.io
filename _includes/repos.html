@@ -5,7 +5,7 @@
 	<ul class="list  list--sites" id="sites">
 		{% for item in site.github.public_repositories %}
 
-			{% unless item.has_issues == false or item.name contains 'darn' %}
+			{% unless item.has_issues == false or item.name contains "darn" or item.homepage contains "darn.es" %}
 
 				{% if item.homepage contains "anchorthemes.com" %}
 					{% assign icon = "anchor" %}
