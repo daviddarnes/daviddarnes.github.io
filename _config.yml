@@ -5,7 +5,7 @@ exclude:
 - CNAME
 
 # Gems
-gems:
+plugins:
 - jekyll-github-metadata
 - jekyll-sitemap
 - jekyll-mentions
@@ -21,7 +21,7 @@ jekyll-mentions: https://twitter.com
 # SCSS
 sass:
   style: :compressed
-  
+
 # Site info
 url: https://daviddarnes.github.io
 title: "Dave's Open Source Stuff"
@@ -34,6 +34,6 @@ twitter:
 
 author:
   twitter: daviddarnes
-  
+
 seo:
   author: "David Darnes"
