@@ -6,13 +6,11 @@ exclude:
 
 # Gems
 gems:
-- jekyll-seo-tag
-
-plugins:
 - jekyll-github-metadata
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate
+- jekyll-seo-tag
 - jekyll-redirect-from
 - jemoji
 
