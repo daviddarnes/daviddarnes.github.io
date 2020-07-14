@@ -7,4 +7,4 @@ icon: experiment
 
 ## Experiments, tools and other projects
 
-I also [write articles](https://david.darn.es/) and [create websites](https://darn.es/).
+I also [write articles](https://david.darn.es/) and [build stuff](https://darn.es/).
